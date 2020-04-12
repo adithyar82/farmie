@@ -129,218 +129,118 @@
       <!-- Section Heading -->
       <div class="section-heading">
         <!-- <p>Contact now</p> -->
-        <h2 style="margin-left: 30px"><span>Block Details</span></h2>
+        <h2 style="margin-left: 30px"><span>Fertilizer Details</span></h2>
         <img style="margin-left: 30px" src="img/core-img/decor.png" alt="">
       </div>
       <!-- Contact Form Area -->
       <div class="contact-form-area">
         <form action="index.html" method="post">
           <div class="row" style = "margin-left: 10%" >
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Name" disabled>
+            <div class="col-lg-4">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus (P)" disabled>
             </div>
-            <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;"  placeholder="Block Name">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Type" disabled>
-            </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
             <select id="cars">
-                <option value="arabica" style = "font-size: 20px;" >Arabica</option>
-                <option value="robusta" style = "font-size: 20px;" >Robusta</option>
+                <option value="arabica" style = "font-size: 20px; color: black;" ><b>DAP (Di Ammonium Phosphate)</b></option>
+                <option value="robusta" style = "font-size: 20px;" ><b>SSP (Single Super Phosphate)</option>
+                <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 20</option>
+                <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 30</option>
+                <option value="robusta" style = "font-size: 20px;"><b>16:16:16 (16 All)</option>
+                <option value="robusta" style = "font-size: 20px;"><b>17:17:17 (17 All)</option>
+                <option value="robusta" style = "font-size: 20px;"><b>19:19:19 (19 All)</option>
+                <option value="arabica" style = "font-size: 20px;" ><b>Rarely Used:</b></option>
+                <option value="arabica" style = "font-size: 20px;" ><b>TSP (Triple Super Phosphate)</b></option>
+                <option value="arabica" style = "font-size: 20px;" ><b>20:20:00:13</b></option>
+                <option value="arabica" style = "font-size: 20px;" ><b>10:26:26</b></option>
+                <option value="arabica" style = "font-size: 20px;" ><b>14:28:14</b></option>
+                <option value="arabica" style = "font-size: 20px;" ><b>28:28:00</b></option>
+                <option value="arabica" style = "font-size: 20px;" ><b>12:32:16</b></option>
+                <option value="arabica" style = "font-size: 20px;" ><b>14:35:14</b></option>
             </select>
             </div><br>
           </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+          <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Area" disabled>
-            </div>
-            <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;" placeholder="Block Area">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Age of Plants" disabled>
-            </div>
-            <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;" placeholder="Age of Plants">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Spacing" disabled>
-            </div>
-            <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;" placeholder="Spacing">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="name" value = "Shade" disabled>
-            </div>
-            <div class="col-lg-3">
-              <label class="checkbox-inline">
-                <input type="checkbox" value="">Low &nbsp;
-              </label>
-              <label class="checkbox-inline">
-                <input type="checkbox" value="">Medium &nbsp;
-              </label>
-              <label class="checkbox-inline">
-                <input type="checkbox" value="">High &nbsp;
-              </label>
+            <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
             
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="name" value = "Total Area" disabled> -->
+          <div class="col-lg-4">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-4">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Yield" disabled>
+          </br>
+          <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+            </div>
+          </br>
+          <div class="col-lg-4">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Nitrogen (N)" disabled>
+            </div>
+            <div class="col-lg-4">
             <select id="cars">
-                <option value="Cherry" style = "font-size: 20px;" >Cherry</option>
-                <option value="Parchment" style = "font-size: 20px;" >Parchment</option>
+                <option value="arabica" style = "font-size: 20px;" ><b>Urea</b></option>
+                <option value="robusta" style = "font-size: 20px;" ><b>Ammonium Phosphate</option>
+                <option value="robusta" style = "font-size: 20px;"><b>Ammonium Chloride</option>
+                <option value="arabica" style = "font-size: 20px;" ><b>MAP (Mono Ammonium Phosphate)</b></option>
+                <!-- <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 30</option>
+                <option value="robusta" style = "font-size: 20px;"><b>16:16:16 (16 All)</option>
+                <option value="robusta" style = "font-size: 20px;"><b>17:17:17 (17 All)</option>
+                <option value="robusta" style = "font-size: 20px;"><b>19:19:19 (19 All)</option> -->
             </select>
             </div><br>
+            <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+            </div>
+            <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+            </div>
           </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+          
+            <div class="col-lg-4">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-4">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
-            <div class="col-lg-6">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="name" value = "Soil Report" disabled> -->
-              <h3> Soil Report </h3>
+          </br>
+          <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
-            <div class="col-lg-3">
-              <!-- <label class="checkbox-inline">
-                <input type="checkbox" value="">Low &nbsp;
-              </label>
-              <label class="checkbox-inline">
-                <input type="checkbox" value="">Medium &nbsp;
-              </label>
-              <label class="checkbox-inline">
-                <input type="checkbox" value="">High &nbsp;
-              </label> -->
+            <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
-            <div class="col-lg-">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="name" value = "Total Area" disabled> -->
+          </br>
+          <div class="col-lg-4">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Potassium (K)" disabled>
             </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "% Organic Carbon (OC)" disabled>
-            </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
+            <div class="col-lg-4">
             <select id="cars">
-                <option value="Low (< 1.0)" style = "font-size: 20px;" >Low (< 1.0)</option>
-                <option value="Medium (1-2.5)" style = "font-size: 20px;" >Medium (1-2.5)</option>  
-                <option value="High (> 2.5)" style = "font-size: 20px;" >High (> 2.5)</option>              >
+                <option value="arabica" style = "font-size: 20px;"><b>MOP (Muriate of Potassium)</b></option>
+                <!-- <option value="robusta" style = "font-size: 20px;" ><b>SSP (Single Super Phosphate)</option>
+                <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 20</option>
+                <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 30</option>
+                <option value="robusta" style = "font-size: 20px;"><b>16:16:16 (16 All)</option>
+                <option value="robusta" style = "font-size: 20px;"><b>17:17:17 (17 All)</option>
+                <option value="robusta" style = "font-size: 20px;"><b>19:19:19 (19 All)</option> -->
             </select>
             </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "P (Phosphorus) kg/acre" disabled>
-            </div>
-            <div class="col-lg-3">
-            <select id="cars">
-                <option value="Low (< 9.0)" style = "font-size: 20px;">Low (< 9.0)</option>
-                <option value="Medium (9-22)" style = "font-size: 20px;">Medium (9-22)</option>
-                <option value="High (> 22.0)" style = "font-size: 20px;">High (> 22.0)</option>
-            </select>
             </div><br>
+            <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+            </div>
+            <div class="col-lg-2">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+            </div>
           </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "K (Potassium) kg/acre" disabled>
-            </div>
-            <div class="col-lg-3">
-            <select id="cars">
-                <option value="arabica" style = "font-size: 20px;" >Low (< 125.0)</option>
-                <option value="robusta" style = "font-size: 20px;" >Medium (125-250)</option>
-                <option value="robusta"> style = "font-size: 20px;" High (> 250.0)</option>
-            </select>
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "pH" disabled>
-            </div>
-            <div class="col-lg-3">
-              <input type="email" class="form-control" name="email"  style = "font-size: 20px;" placeholder="pH">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "LR pH" disabled>
-            </div>
-            <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;"  placeholder="LR pH">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <a href="details.php" style = "margin-left: 20%;" class="btn famie-btn mt-4" data-animation="bounceInDown">Submit</a>
-          <div>
+            <a href="details.php" style = "margin-left: 30%;" class="btn famie-btn mt-4">Submit</a>
         </form>
       </div>
     </div>
@@ -583,4 +483,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="js/active.js"></script>
 </body>
 
-</html>s
+</html>
