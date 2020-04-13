@@ -1,3 +1,8 @@
+<?php
+if(isset($_POST['submit'])){
+  $rainfall = $_POST['rainfall'];
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +36,7 @@
             <div class="top-header-content d-flex align-items-center justify-content-between">
               <!-- Top Header Content -->
               <div class="top-header-meta">
-                <p>Welcome to <span>Farmie</span>, we hope you will enjoy our products and have good experience</p>
+                <p>Welcome to <span>Farmie</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
@@ -51,7 +56,7 @@
           <!-- Menu -->
           <nav class="classy-navbar justify-content-between" id="famieNav">
             <!-- Nav Brand -->
-            <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+            <a href="index.php" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
             <!-- Navbar Toggler -->
             <div class="classy-navbar-toggler">
               <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -65,16 +70,16 @@
               <!-- Navbar Start -->
               <div class="classynav">
                 <ul>
-                  <li class="active"><a href="index.html">Home</a></li>
+                  <li class="active"><a href="index.php">Home</a></li>
                   <li><a href="about.html">About</a></li>
                   <li><a href="#">Pages</a>
                     <ul class="dropdown">
-                      <li><a href="index.html">Home</a></li>
+                      <li><a href="index.php">Home</a></li>
                       <li><a href="about.html">About Us</a></li>
                       <li><a href="farming-practice.html">Farming Practice</a></li>
                       <li><a href="shop.html">Shop</a>
                         <ul class="dropdown">
-                          <li><a href="our-product.html">Our Products</a></li>
+                          <li><a href="farming_diseases.php">FARMING DISEASES</a></li>
                           <li><a href="shop.html">Shop</a></li>
                         </ul>
                       </li>
@@ -87,7 +92,7 @@
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </li>
-                  <li><a href="our-product.html">Our Product</a></li>
+                  <li><a href="farming_diseases.php">Our Product</a></li>
                   <li><a href="farming-practice.html">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
                   <li><a href="contact.html">Contact</a></li>
@@ -134,13 +139,13 @@
       </div>
       <!-- Contact Form Area -->
       <div class="contact-form-area">
-        <form action="index.html" method="post">
+        <form method="POST" action="index_1.php">
           <div class="row" style = "margin-left: 10%" >
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Name" disabled>
+              <input name = "block_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Name" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;"  placeholder="Block Name">
+              <input name = "block_name" type="text" class="form-control" style = "font-size: 20px;"  placeholder="Block Name">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -150,12 +155,12 @@
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Type" disabled>
+              <input name = "block_type" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Type" disabled>
             </div>
             <div class="col-lg-3">
             <select id="cars">
-                <option value="arabica" style = "font-size: 20px;" >Arabica</option>
-                <option value="robusta" style = "font-size: 20px;" >Robusta</option>
+                <option name = "block_type" value="arabica" style = "font-size: 20px;" >Arabica</option>
+                <option name = "block_type" value="robusta" style = "font-size: 20px;" >Robusta</option>
             </select>
             </div><br>
           </br>
@@ -166,10 +171,10 @@
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Area" disabled>
+              <input name = "blocK_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Area" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;" placeholder="Block Area">
+              <input type="text" class="form-control" name = "blocK_name" style = "font-size: 20px;" placeholder="Block Area">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -179,10 +184,10 @@
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Age of Plants" disabled>
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="age" value = "Age of Plants" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;" placeholder="Age of Plants">
+              <input type="text" class="form-control" name="age" style = "font-size: 20px;" placeholder="Age of Plants">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -192,10 +197,10 @@
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Spacing" disabled>
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Spacing" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;" placeholder="Spacing">
+              <input type="text" class="form-control" name="spacing" style = "font-size: 20px;" placeholder="Spacing">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -205,17 +210,17 @@
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="name" value = "Shade" disabled>
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="shade" value = "Shade" disabled>
             </div>
             <div class="col-lg-3">
               <label class="checkbox-inline">
-                <input type="checkbox" value="">Low &nbsp;
+                <input name="shade"  type="checkbox" value="low">Low &nbsp;
               </label>
               <label class="checkbox-inline">
-                <input type="checkbox" value="">Medium &nbsp;
+                <input name="shade"  type="checkbox" value="medium">Medium &nbsp;
               </label>
               <label class="checkbox-inline">
-                <input type="checkbox" value="">High &nbsp;
+                <input name="shade" type="checkbox" value="high">High &nbsp;
               </label>
             </div>
             
@@ -226,13 +231,26 @@
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Yield" disabled>
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="yield_type" value = "Yield Type" disabled>
             </div>
             <div class="col-lg-3">
-            <select id="cars">
+            <select name="yield_type" id="yield_type">
                 <option value="Cherry" style = "font-size: 20px;" >Cherry</option>
                 <option value="Parchment" style = "font-size: 20px;" >Parchment</option>
             </select>
+            </div><br>
+          </br>
+            <div class="col-lg-3">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+            </div>
+            <div class="col-lg-3">
+              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            </div>
+            <div class="col-lg-3">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="number_of_bags" value = "Number of Bags" disabled>
+            </div>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="number_of_bags" style = "font-size: 20px;" placeholder="Number of Bags">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -317,7 +335,7 @@
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "pH" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="email" class="form-control" name="email"  style = "font-size: 20px;" placeholder="pH">
+              <input type="text" class="form-control" name="email"  style = "font-size: 20px;" placeholder="pH">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -330,7 +348,7 @@
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "LR pH" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" style = "font-size: 20px;"  placeholder="LR pH">
+              <input type="text" class="form-control" name="email" style = "font-size: 20px;"  placeholder="LR pH">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -339,7 +357,10 @@
             <div class="col-lg-3">
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
-            <a href="details.php" style = "margin-left: 20%;" class="btn famie-btn mt-4" data-animation="bounceInDown">Submit</a>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="rainfall" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $rainfall ?>" hidden>
+            </div><br>
+            <input type = "submit" name="submit">Submit</a>
           <div>
         </form>
       </div>
@@ -412,9 +433,9 @@
 
   <!-- ##### Services Area End ##### -->
 
-  <!-- ##### Our Products Area Start ##### -->
+  <!-- ##### FARMING DISEASES Area Start ##### -->
   
-  <!-- ##### Our Products Area End ##### -->
+  <!-- ##### FARMING DISEASES Area End ##### -->
 
   <!-- ##### Newsletter Area Start ##### -->
   

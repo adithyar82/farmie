@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <!-- Title -->
-  <title>Famie - Farm Services &amp; Organic Food Store Template | Our Products</title>
+  <title>Famie - Farm Services &amp; Organic Food Store Template | FARMING DISEASES</title>
   <!-- Favicon -->
   <link rel="icon" href="img/core-img/favicon.ico">
   <!-- Core Stylesheet -->
@@ -31,7 +31,7 @@
             <div class="top-header-content d-flex align-items-center justify-content-between">
               <!-- Top Header Content -->
               <div class="top-header-meta">
-                <p>Welcome to <span>Farmie</span>, we hope you will enjoy our products and have good experience</p>
+                <p>Welcome to <span>Farmie</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
@@ -51,7 +51,7 @@
           <!-- Menu -->
           <nav class="classy-navbar justify-content-between" id="famieNav">
             <!-- Nav Brand -->
-            <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+            <a href="index.php" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
             <!-- Navbar Toggler -->
             <div class="classy-navbar-toggler">
               <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -65,16 +65,16 @@
               <!-- Navbar Start -->
               <div class="classynav">
                 <ul>
-                  <li class="active"><a href="index.html">Home</a></li>
+                  <li class="active"><a href="index.php">Home</a></li>
                   <li><a href="about.html">About</a></li>
                   <li><a href="#">Pages</a>
                     <ul class="dropdown">
-                      <li><a href="index.html">Home</a></li>
+                      <li><a href="index.php">Home</a></li>
                       <li><a href="about.html">About Us</a></li>
                       <li><a href="farming-practice.html">Farming Practice</a></li>
                       <li><a href="shop.html">Shop</a>
                         <ul class="dropdown">
-                          <li><a href="our-product.html">Our Products</a></li>
+                          <li><a href="farming_diseases.php">FARMING DISEASES</a></li>
                           <li><a href="shop.html">Shop</a></li>
                         </ul>
                       </li>
@@ -87,7 +87,7 @@
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </li>
-                  <li><a href="our-product.html">Our Product</a></li>
+                  <li><a href="farming_diseases.php">Our Product</a></li>
                   <li><a href="farming-practice.html">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
                   <li><a href="contact.html">Contact</a></li>
@@ -183,9 +183,9 @@
   
   <!-- ##### Services Area End ##### -->
 
-  <!-- ##### Our Products Area Start ##### -->
+  <!-- ##### FARMING DISEASES Area Start ##### -->
   
-  <!-- ##### Our Products Area End ##### -->
+  <!-- ##### FARMING DISEASES Area End ##### -->
 
   <!-- ##### Newsletter Area Start ##### -->
   

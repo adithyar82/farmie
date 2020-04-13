@@ -177,13 +177,13 @@
       </div>
       <!-- Contact Form Area -->
       <div class="contact-form-area">
-        <form action="index.php" method="post">
+        <form method="POST" action="details.php">
           <div class="row" style = "margin-left: 10%" >
             <div class="col-lg-3">
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Total Area" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" placeholder="Total Area">
+              <input type="text" class="form-control" name="email" placeholder="Total Area">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -196,7 +196,7 @@
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Number of Blocks" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="email" class="form-control" name="email" placeholder="Number of Blocks">
+              <input type="text" class="form-control" name="email" placeholder="Number of Blocks">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -230,13 +230,13 @@
             </div>
             <div class="col-lg-3">
               <label class="checkbox-inline">
-                <input type="checkbox" value="">Low &nbsp;
+                <input name ="rainfall" type="checkbox" value="Low">Low &nbsp;
               </label>
               <label class="checkbox-inline">
-                <input type="checkbox" value="">Medium &nbsp;
+                <input name ="rainfall" type="checkbox" value="Medium">Medium &nbsp;
               </label>
               <label class="checkbox-inline">
-                <input type="checkbox" value="">High &nbsp;
+                <input name = "rainfall" type="checkbox" value="High">High &nbsp;
               </label>
             </div>
             <div class="col-lg-3">
@@ -245,7 +245,7 @@
             <div class="col-lg-3">
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
-            <a href="details.php" style = "margin-left: 20%;" class="btn famie-btn mt-4">Submit</a>
+            <input type ="submit" name ="submit">Submit</a>
         </form>
       </div>
     </div>
