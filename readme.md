@@ -54,10 +54,10 @@ famie/
     ├── about.html
     ├── contact.html
     ├── farming-practice.html
-    ├── index.html
+    ├── index.php
     ├── news-details.html
     ├── news.html
-    ├── our-product.html
+    ├── farming_diseases.php
     ├── shop.html
     ├── style.css
     └── style.css.map

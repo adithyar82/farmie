@@ -74,7 +74,7 @@
                       <li><a href="farming-practice.html">Farming Practice</a></li>
                       <li><a href="shop.html">Shop</a>
                         <ul class="dropdown">
-                          <li><a href="farming_diseases.php">FARMING DISEASES</a></li>
+                          <li><a href="machinery.php">Machinery</a></li>
                           <li><a href="shop.html">Shop</a></li>
                         </ul>
                       </li>
@@ -158,25 +158,519 @@
             <!-- Section Heading -->
             <div class="section-heading">
               <p>FARM PRODUCE</p>
-              <h2><span>The Future</span> Of Agriculture </h2>
+              <h2><span>Weed</span> Cutter </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit. Etiam nunc elit, pretium atlanta urna veloci, fermentum malesuda mina. Donec auctor nislec neque sagittis, sit amet dapibus pellentesque donal feugiat. Nulla mollis magna non
-              sanaliquet, volutpat do zutum, ultrices consectetur, ultrices at purus.</p>
-            <a href="#" class="btn famie-btn mt-30">Read More</a>
           </div>
         </div>
 
         <!-- Famie Video Play -->
         <div class="col-12 col-lg-6">
           <div class="about-us-thumbnail mb-100">
-            <img src="img/bg-img/19.jpg" alt="">
+            <img src="img/core-img/weed-cutter.jpg" alt="">
           </div>
         </div>
 
       </div>
     </div>
   </section>
+
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Pit</span> Digger </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/pit digger.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Tree</span> Pruner (Automatic) </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/Tree pruner.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Tree</span> Pruner (Manual) </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/Tree Pruner2.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Chain</span> Saw </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/Chainsaw.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Mini</span> Tractor </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/mini-tractor.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Power</span> Tiller </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/Tillers.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Tractors</span> </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/Tractor.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Hand</span> Pruner </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/hand_pruner.jpeg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Single Piston</span> Sprayer </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/SP sprayer.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Double Piston</span> Sprayer </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/DP sprayer.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Triple Piston</span> Sprayer </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/TP Sprayer.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Imovilli</span> Sprayer </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/imovilli.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Jets</span> </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/jet.jfif" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Rain</span> Gun </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/Rain Gun.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Skipper</span> </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/skipper.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Back</span> Sprayer </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/sprayer.jfif" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Drip</span> </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/drip.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Pipeline</span> </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/pipeline.jpeg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>FARM PRODUCE</p>
+              <h2><span>Coffee</span> Pulper </h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-12 col-lg-6">
+          <div class="about-us-thumbnail mb-100">
+            <img src="img/core-img/pulpers.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
   <!-- ##### About Us Area End ##### -->
 
   <!-- ##### Services Area Start ##### -->
@@ -218,56 +712,8 @@
   <!-- ##### Newsletter Area End ##### -->
 
   <!-- ##### Contact Area Start ##### -->
-  <section class="contact-area section-padding-100-0">
-    <div class="container">
-      <div class="row justify-content-between">
-
-        <!-- Contact Content -->
-        <div class="col-12 col-lg-5">
-          <div class="contact-content mb-100">
-            <!-- Section Heading -->
-            <div class="section-heading">
-              <p>Contact now</p>
-              <h2><span>Get In Touch</span> With Us</h2>
-              <img src="img/core-img/decor.png" alt="">
-            </div>
-            <!-- Contact Form Area -->
-            <div class="contact-form-area">
-              <form action="index.php" method="post">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name">
-                  </div>
-                  <div class="col-lg-6">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email">
-                  </div>
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Your Subject">
-                  </div>
-                  <div class="col-12">
-                    <textarea name="message" class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn famie-btn">Send Message</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-
-        <!-- Contact Maps -->
-        <div class="col-lg-6">
-          <div class="contact-maps mb-100">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28313.28917392649!2d-88.2740948914384!3d41.76219337461615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880efa1199df6109%3A0x8a1293b2ae8e0497!2sE+New+York+St%2C+Aurora%2C+IL%2C+USA!5e0!3m2!1sen!2sbd!4v1542893000723"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ##### Contact Area End ##### -->
-
+  <!--# Contact Area End ##### -->
+<br>
   <!-- ##### Footer Area Start ##### -->
   <footer class="footer-area">
     <!-- Main Footer Area -->
