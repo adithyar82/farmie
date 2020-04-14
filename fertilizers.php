@@ -1,3 +1,16 @@
+<?php
+$rainfall = $_POST['rainfall'];
+$shade = $_POST['shade'];
+$organic_carbon = $_POST['organic_carbon'];
+$phosphorus = $_POST['phosphorus'];
+$potassium = $_POST['potassium'];
+$shade = $_POST['shade'];
+$age = $_POST['age'];
+$rainfall_count = $_POST['rainfall_count'];
+$season_count = $_POST['season_count'];
+$yield_type = $_POST['yield_type'];
+$number_of_bags = $_POST['number_of_bags'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -134,28 +147,29 @@
       </div>
       <!-- Contact Form Area -->
       <div class="contact-form-area">
-        <form action="index.php" method="post">
+        <form method = "POST" action = "index_1.php">
           <div class="row" style = "margin-left: 10%" >
             <div class="col-lg-4">
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus (P)" disabled>
             </div>
             <div class="col-lg-4">
-            <select id="cars">
-                <option value="arabica" style = "font-size: 20px; color: black;" ><b>DAP (Di Ammonium Phosphate)</b></option>
-                <option value="robusta" style = "font-size: 20px;" ><b>SSP (Single Super Phosphate)</option>
-                <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 20</option>
-                <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 30</option>
-                <option value="robusta" style = "font-size: 20px;"><b>16:16:16 (16 All)</option>
-                <option value="robusta" style = "font-size: 20px;"><b>17:17:17 (17 All)</option>
-                <option value="robusta" style = "font-size: 20px;"><b>19:19:19 (19 All)</option>
+            <select name = "phosphorus_1" id="phosphorus_1">
+                <option value="DAP" style = "font-size: 20px; color: black;" ><b>DAP (Di Ammonium Phosphate)</b></option>
+                <option value="SSP" style = "font-size: 20px;" ><b>SSP (Single Super Phosphate)</option>
+                <option value="RP-20" style = "font-size: 20px;"><b>RP (Rock Phosphate) 20</option>
+                <option value="RP-30" style = "font-size: 20px;"><b>RP (Rock Phosphate) 30</option>
+                <option value="MAP" style = "font-size: 20px;" ><b>MAP (Mono Ammonium Phosphate)</b></option>
+                <option value="16" style = "font-size: 20px;"><b>16:16:16 (16 All)</option>
+                <option value="17" style = "font-size: 20px;"><b>17:17:17 (17 All)</option>
+                <option value="19" style = "font-size: 20px;"><b>19:19:19 (19 All)</option>
                 <option value="arabica" style = "font-size: 20px;" ><b>Rarely Used:</b></option>
-                <option value="arabica" style = "font-size: 20px;" ><b>TSP (Triple Super Phosphate)</b></option>
-                <option value="arabica" style = "font-size: 20px;" ><b>20:20:00:13</b></option>
-                <option value="arabica" style = "font-size: 20px;" ><b>10:26:26</b></option>
-                <option value="arabica" style = "font-size: 20px;" ><b>14:28:14</b></option>
-                <option value="arabica" style = "font-size: 20px;" ><b>28:28:00</b></option>
-                <option value="arabica" style = "font-size: 20px;" ><b>12:32:16</b></option>
-                <option value="arabica" style = "font-size: 20px;" ><b>14:35:14</b></option>
+                <option value="TSP" style = "font-size: 20px;" ><b>TSP (Triple Super Phosphate)</b></option>
+                <!-- <option value="arabica" style = "font-size: 20px;" ><b>20:20:00:13</b></option> -->
+                <option value="26" style = "font-size: 20px;" ><b>10:26:26</b></option>
+                <option value="14" style = "font-size: 20px;" ><b>14:28:14</b></option>
+                <option value="28" style = "font-size: 20px;" ><b>28:28:00</b></option>
+                <option value="12" style = "font-size: 20px;" ><b>12:32:16</b></option>
+                <option value="35" style = "font-size: 20px;" ><b>14:35:14</b></option>
             </select>
             </div><br>
           </br>
@@ -165,6 +179,39 @@
             <div class="col-lg-2">
               <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="rainfall" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $rainfall ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="shade" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $shade ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="organic_carbon" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $organic_carbon ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="phosphorus" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $phosphorus ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="potassium" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $potassium ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="shade" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $shade ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="age" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $age ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="rainfall_count" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $rainfall_count ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="season_count" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $season_count ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="yield_type" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $yield_type ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="number_of_bags" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $number_of_bags ?>" hidden>
+            </div><br>
             
           <div class="col-lg-4">
               <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
@@ -184,11 +231,10 @@
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Nitrogen (N)" disabled>
             </div>
             <div class="col-lg-4">
-            <select id="cars">
-                <option value="arabica" style = "font-size: 20px;" ><b>Urea</b></option>
-                <option value="robusta" style = "font-size: 20px;" ><b>Ammonium Phosphate</option>
-                <option value="robusta" style = "font-size: 20px;"><b>Ammonium Chloride</option>
-                <option value="arabica" style = "font-size: 20px;" ><b>MAP (Mono Ammonium Phosphate)</b></option>
+            <select name = "nitrogen_1" id="nitrogen_1">
+                <option value="Urea" style = "font-size: 20px;" ><b>Urea</b></option>
+                <option value="Ammonium Sulphate" style = "font-size: 20px;" ><b>Ammonium Sulphate</option>
+                <option value="Ammonium Chloride" style = "font-size: 20px;"><b>Ammonium Chloride</option>
                 <!-- <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 30</option>
                 <option value="robusta" style = "font-size: 20px;"><b>16:16:16 (16 All)</option>
                 <option value="robusta" style = "font-size: 20px;"><b>17:17:17 (17 All)</option>
@@ -222,8 +268,8 @@
             </div>
             <div class="col-lg-4">
             <div class="col-lg-4">
-            <select id="cars">
-                <option value="arabica" style = "font-size: 20px;"><b>MOP (Muriate of Potassium)</b></option>
+            <select name = "potassium_1" id="potassium_1">
+                <option value="MOP" style = "font-size: 20px;"><b>MOP (Muriate of Potassium)</b></option>
                 <!-- <option value="robusta" style = "font-size: 20px;" ><b>SSP (Single Super Phosphate)</option>
                 <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 20</option>
                 <option value="robusta" style = "font-size: 20px;"><b>RP (Rock Phosphate) 30</option>
@@ -240,7 +286,7 @@
               <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
             </div>
           </br>
-            <a href="details.php" style = "margin-left: 30%;" class="btn famie-btn mt-4">Submit</a>
+          <input type = "submit" name="submit">Submit</a>
         </form>
       </div>
     </div>
