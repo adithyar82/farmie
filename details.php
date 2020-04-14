@@ -141,7 +141,7 @@ if(isset($_POST['submit'])){
       </div>
       <!-- Contact Form Area -->
       <div class="contact-form-area">
-        <form method="POST" action="index_1.php">
+        <form method="POST" action="fertilizers.php">
           <div class="row" style = "margin-left: 10%" >
             <div class="col-lg-3">
               <input name = "block_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Name" disabled>
