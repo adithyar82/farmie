@@ -31,7 +31,7 @@
             <div class="top-header-content d-flex align-items-center justify-content-between">
               <!-- Top Header Content -->
               <div class="top-header-meta">
-                <p>Welcome to <span>Farmie</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
+                <p>Welcome to <span>Kaapi Nutrition</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
@@ -157,7 +157,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Weed</span> Cutter </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -184,7 +184,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Pit</span> Digger </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -210,7 +210,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Tree</span> Pruner (Automatic) </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -236,7 +236,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Tree</span> Pruner (Manual) </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -262,7 +262,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Chain</span> Saw </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -288,7 +288,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Mini</span> Tractor </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -314,7 +314,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Power</span> Tiller </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -340,7 +340,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Tractors</span> </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -366,7 +366,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Hand</span> Pruner </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -392,7 +392,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Single Piston</span> Sprayer </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -418,7 +418,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Double Piston</span> Sprayer </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -444,7 +444,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Triple Piston</span> Sprayer </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -470,7 +470,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Imovilli</span> Sprayer </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -496,7 +496,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Jets</span> </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -522,7 +522,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Rain</span> Gun </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -548,7 +548,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Skipper</span> </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -574,7 +574,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Back</span> Sprayer </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -601,7 +601,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Drip</span> </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -627,7 +627,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Pipeline</span> </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
@@ -653,7 +653,7 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
+              <p></p>
               <h2><span>Coffee</span> Pulper </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
