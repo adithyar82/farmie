@@ -125,7 +125,7 @@ if($shade == "low"){
     echo "<br>";
     echo round($nitrogen_average_value_1);
     echo ":";
-    echo round($phosphorus_phosphorus_value_1);
+    echo round($phosphorus_average_value_1);
     echo ":";
     echo round($potassium_average_value_1);
     echo "<br>";
