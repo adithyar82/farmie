@@ -31,7 +31,7 @@
             <div class="top-header-content d-flex align-items-center justify-content-between">
               <!-- Top Header Content -->
               <div class="top-header-meta">
-                <p>Welcome to <span>Farmie</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
+                <p>Welcome to <span>Kaapi Nutrition</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">

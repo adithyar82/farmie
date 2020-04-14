@@ -1,6 +1,8 @@
 <?php
 if(isset($_POST['submit'])){
   $rainfall = $_POST['rainfall'];
+  $rainfall_count = count($_POST['rainfall']);
+  $season_count = count($_POST['season']);
 }
 ?>
 <!DOCTYPE html>
@@ -36,7 +38,7 @@ if(isset($_POST['submit'])){
             <div class="top-header-content d-flex align-items-center justify-content-between">
               <!-- Top Header Content -->
               <div class="top-header-meta">
-                <p>Welcome to <span>Farmie</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
+                <p>Welcome to <span>Kaapi Nutrition</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
@@ -284,50 +286,50 @@ if(isset($_POST['submit'])){
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "% Organic Carbon (OC)" disabled>
             </div>
             <div class="col-lg-3">
-            <select id="cars">
+            <select id="organic_carbon">
                 <option value="Low (< 1.0)" style = "font-size: 20px;" >Low (< 1.0)</option>
                 <option value="Medium (1-2.5)" style = "font-size: 20px;" >Medium (1-2.5)</option>  
                 <option value="High (> 2.5)" style = "font-size: 20px;" >High (> 2.5)</option>              >
             </select>
             </div><br>
           </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
+          <div class="col-lg-3">
+              <input type="text" class="form-control" name="organic_carbon" style = "font-size: 20px;" placeholder="Organic Carbon">
+            </div><br>
             <div class="col-lg-3">
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "P (Phosphorus) kg/acre" disabled>
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="phosphorus" value = "P (Phosphorus) kg/acre" disabled>
             </div>
             <div class="col-lg-3">
-            <select id="cars">
+            <select id="phosphorus">
                 <option value="Low (< 9.0)" style = "font-size: 20px;">Low (< 9.0)</option>
                 <option value="Medium (9-22)" style = "font-size: 20px;">Medium (9-22)</option>
                 <option value="High (> 22.0)" style = "font-size: 20px;">High (> 22.0)</option>
             </select>
             </div><br>
           </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
+          <div class="col-lg-3">
+              <input type="text" class="form-control" name="phosphorus" style = "font-size: 20px;" placeholder="Phosphorus">
+            </div><br>
             <div class="col-lg-3">
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "K (Potassium) kg/acre" disabled>
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="potassium" value = "K (Potassium) kg/acre" disabled>
             </div>
             <div class="col-lg-3">
-            <select id="cars">
-                <option value="arabica" style = "font-size: 20px;" >Low (< 125.0)</option>
-                <option value="robusta" style = "font-size: 20px;" >Medium (125-250)</option>
-                <option value="robusta"> style = "font-size: 20px;" High (> 250.0)</option>
+            <select id="potassium">
+                <option value="Low (< 125.0)" style = "font-size: 20px;" >Low (< 125.0)</option>
+                <option value="Low (< 125.0)" style = "font-size: 20px;" >Low (< 125.0)</option>
+                <option value="High (> 250.0)" style = "font-size: 20px;"> High (> 250.0)</option>
             </select>
             </div><br>
           </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
+          <div class="col-lg-3">
+              <input type="text" class="form-control" name="potassium" style = "font-size: 20px;" placeholder="Potassium">
+            </div><br>
             <div class="col-lg-3">
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
@@ -359,6 +361,12 @@ if(isset($_POST['submit'])){
             </div>
             <div class="col-lg-3">
               <input type="text" class="form-control" name="rainfall" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $rainfall ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="rainfall_count" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $rainfall_count ?>" hidden>
+            </div><br>
+            <div class="col-lg-3">
+              <input type="text" class="form-control" name="season_count" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $season_count ?>" hidden>
             </div><br>
             <input type = "submit" name="submit">Submit</a>
           <div>
@@ -580,7 +588,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <!-- ##### All Javascript Files ##### -->
   <!-- jquery 2.2.4  -->
   <script src="js/jquery.min.js"></script>
-  <!-- Popper js -->
+  <!-- Ppper js -->
   <script src="js/popper.min.js"></script>
   <!-- Bootstrap js -->
   <script src="js/bootstrap.min.js"></script>

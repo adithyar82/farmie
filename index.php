@@ -210,13 +210,13 @@
             </div>
             <div class="col-lg-3">
               <label class="checkbox-inline">
-                <input type="checkbox" value="">Summer &nbsp;
+                <input name = "season[]" type="checkbox" value="Summer">Summer &nbsp;
               </label>
               <label class="checkbox-inline">
-                <input type="checkbox" value="">Pre-monsoon &nbsp;
+                <input name = "season[]" type="checkbox" value="Pre-monsoon">Pre-monsoon &nbsp;
               </label>
               <label class="checkbox-inline">
-                <input type="checkbox" value="">Post-monsoon &nbsp;
+                <input name= "season[]"type="checkbox" value="Post-monsoon">Post-monsoon &nbsp;
               </label>
             </div>
             <div class="col-lg-3">
@@ -230,13 +230,13 @@
             </div>
             <div class="col-lg-3">
               <label class="checkbox-inline">
-                <input name ="rainfall" type="checkbox" value="Low">Low &nbsp;
+                <input name ="rainfall[]" type="checkbox" value="Low">Low &nbsp;
               </label>
               <label class="checkbox-inline">
-                <input name ="rainfall" type="checkbox" value="Medium">Medium &nbsp;
+                <input name ="rainfall[]" type="checkbox" value="Medium">Medium &nbsp;
               </label>
               <label class="checkbox-inline">
-                <input name = "rainfall" type="checkbox" value="High">High &nbsp;
+                <input name = "rainfall[]" type="checkbox" value="High">High &nbsp;
               </label>
             </div>
             <div class="col-lg-3">
