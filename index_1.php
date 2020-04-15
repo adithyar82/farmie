@@ -19,10 +19,12 @@ $number_of_bags = $_POST['number_of_bags'];
 // echo $shade;
 // echo $yield_type;
 // echo $number_of_bags;
+if($age>=5){
 if($yield_type == "Parchment"){
    $initial_value = $number_of_bags * 50 * 0.8;
 }
-else if($yield_type == "Cherry"){
+else if($yield_type == "Cherry"){]\
+
     $initial_value = $number_of_bags * 50 * 0.5;
 }
 
@@ -40,6 +42,7 @@ if($initial_value<=1000){
     echo ":";
     echo round($base_value_3);
     echo "<br>";
+}
 }
 else if($initial_value>1000){
     $base_value_1 = $standard_value_1 + 30;
@@ -316,7 +319,6 @@ echo "<br>";
 echo round($nitrogen_final_value);
 echo "<br>";
 echo round($potassium_final_value);
-
 $sql = "INSERT INTO products (id, rainfall, shade, bags, age, organic_carbon, phosphorus, potassium,yield_type) VALUES (Null, '$rainfall', '$shade', '$number_of_bags','$age','$organic_carbon','$phosphorus','$potassium','$yield_type');";
 $result = $conn->query($sql);
 // echo $sql;
@@ -328,3 +330,4 @@ $result = $conn->query($sql);
 //     </script>';
 // }
 ?>
+
