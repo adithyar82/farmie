@@ -31,12 +31,12 @@
             <div class="top-header-content d-flex align-items-center justify-content-between">
               <!-- Top Header Content -->
               <div class="top-header-meta">
-                <p>Welcome to <span>Farmie</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
+                <p>Welcome to <span>Farmie</span>, we hope you will enjoy farming and have good experience</p>
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: infodeercreative@gmail.com</span></a>
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +84 223 9000</span></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +91 9483124000</span></a>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
                     <ul class="dropdown">
                       <li><a href="index.php">Home</a></li>
                       <li><a href="about.html">About Us</a></li>
-                      <li><a href="farming-practice.html">Farming Practice</a></li>
+                      <li><a href="farming-practice.php">Farming Practice</a></li>
                       <li><a href="shop.html">Shop</a>
                         <ul class="dropdown">
                           <li><a href="machinery.php">Machinery</a></li>
@@ -89,7 +89,7 @@
                   </li>
                   <li><a href="machinery.php">Machinery</a></li>
                   <li><a href="farming_diseases.php">Farming Diseases</a></li>
-                  <li><a href="farming-practice.html">Farming Practice</a></li>
+                  <li><a href="farming-practice.php">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -380,7 +380,13 @@
               </div>
               <span>Farming practice for</span>
               <h4>Soil Management</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>Coffee being grown in hilly tracts, soil gets exposed to high soil erosion during rainy season and a long
+              dry condition for more than 6 months in a year. Hence it is highly essential to prevent the soil erosion in
+              rainy season and conserve moisture during dry condition.
+              <p> Forming Drainage channels</p>
+              <p> Forming of Cradle pits across the slope</p>
+              <p> Mulching during dry period</p>
+              <p> Loosening the soil surface up-to 2-3 inch during post monsoon</p>
             </div>
           </div>
         </div>
@@ -400,7 +406,10 @@
               </div>
               <span>Farming practice for</span>
               <h4>Shade Management</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>Coffee being shade loving plant, it is very essential to maintain optimum shade to get sustainable yield,
+              protect against white stem borer and maintain ecological balance by safe guarding wild flora and fauna.
+              <p> Natural and native shade trees at 30-40 ft apart, as permanent shade.</p>
+              <p> Plant Silver and Dadaps trees at 15-20 ft apart, as temporary shade.</p>
             </div>
           </div>
         </div>
@@ -422,7 +431,12 @@
               </div>
               <span>Farming Practice For</span>
               <h4>Plant Management</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>Coffee being a perennial plant it needs regular care to manage sufficient bearing wood, without which
+              irrespective of any quantity of input plants can’t yield properly.
+              <p> Topping plants at specified heights to encourage more bearing wood.</p>
+              <p> Handling and de-suckering frequently to avoid unnecessary growth and wastage of nutrients.</p>
+              <p> Pruning plants once in a year to remove unwanted lean, lanky, whippy, and dry woods to
+              encourage new growth</p>
             </div>
           </div>
         </div>
@@ -442,7 +456,8 @@
               </div>
               <span>Farming practice for</span>
               <h4>Diversification</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>Under present social conditions a farmer can’t depend on a single crop/farming to get profit. Hence it is
+              highly essential to diversify with other crops and farming system along with coffee.</p>
             </div>
           </div>
         </div>
@@ -481,7 +496,8 @@
               </div>
               <span>Farming practice for</span>
               <h4>Pepper</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>Most important companion crop, which is grown with similar agro climatic conditions
+              of coffee.</p>
             </div>
           </div>
         </div>
@@ -501,7 +517,7 @@
               </div>
               <span>Farming practice for</span>
               <h4>Ginger</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>Can be grown as intercrop in young plantation for additional income.</p>
             </div>
           </div>
         </div>
@@ -523,7 +539,7 @@
               </div>
               <span>Farming Practice For</span>
               <h4>Banana</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>Being a fruit crop it contributes large biomass in short period.</p>
             </div>
           </div>
         </div>
@@ -543,7 +559,7 @@
               </div>
               <span>Farming practice for</span>
               <h4>Orange</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>A major fruit crop that provides temporary shade along with profitable income.</p>
             </div>
           </div>
         </div>
@@ -562,7 +578,8 @@
               </div>
               <span>Farming practice for</span>
               <h4>Cattle Management</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>Rearing two indigenous cows will contribute milk and milk products along
+              with manure to meet nutrients of one hectare coffee.</p>
             </div>
           </div>
         </div>
@@ -581,8 +598,8 @@
                 <img src="img/core-img/pig.png" alt="">
               </div>
               <span>Farming practice for</span>
-              <h4>Arecanut</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <h4>Areca-nut</h4>
+              <p>Important cash crop under the shade of which Robusta is grown successfully.</p>
             </div>
           </div>
         </div>
@@ -603,8 +620,8 @@
                 <img src="img/core-img/sprout.png" alt="">
               </div>
               <span>Farming Practice For</span>
-              <h4>Cordamum</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <h4>Cardamom</h4>
+              <p>Can be grown in moist areas of plantation. Important spices product.</p>
             </div>
           </div>
         </div>
@@ -620,11 +637,12 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/vegetable.png" alt="">
+                <img src="img/core-img/fish-icon.png" alt="">
               </div>
               <span>Farming practice for</span>
               <h4>Fishery</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+              <p>Water tanks available in coffee plantation can be used for fish farming to get additional
+              returns.</p>
             </div>
           </div>
         </div>
