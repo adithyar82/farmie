@@ -11,10 +11,14 @@ $potassium = $_POST['potassium'];
 $potassium_1 = $_POST['potassium_1'];
 $shade = $_POST['shade'];
 $age = $_POST['age'];
+$block_type = $_POST['block_type'];
 $rainfall_count = $_POST['rainfall_count'];
 $season_count = $_POST['season_count'];
 $yield_type = $_POST['yield_type'];
 $number_of_bags = $_POST['number_of_bags'];
+echo $age;
+echo $block_type;
+echo $yield_type;
 // echo $rainfall;
 // echo $shade;
 // echo $yield_type;
@@ -23,15 +27,51 @@ if($age>=5){
 if($yield_type == "Parchment"){
    $initial_value = $number_of_bags * 50 * 0.8;
 }
-else if($yield_type == "Cherry"){]\
-
-    $initial_value = $number_of_bags * 50 * 0.5;
+else if($yield_type == "Cherry"){
+   $initial_value = $number_of_bags * 50 * 0.5;
 }
 
 $initial_value_1 = $initial_value/100;
 $standard_value_1 = 10 * $initial_value_1;
 $standard_value_2 = 7 * $initial_value_1;
 $standard_value_3 = 10 * $initial_value_1;
+
+}
+else if($age == 1 && $block_type = "arabica"){
+    $base_value_1 = 20;
+    $base_value_2 = 10;
+    $base_value_3 = 20;
+}
+else if($age == 2 && $block_type = "arabica"){
+    $base_value_1 = 20;
+    $base_value_2 = 10;
+    $base_value_3 = 20;
+}else if($age == 3 && $block_type = "arabica"){
+    $base_value_1 = 25;
+    $base_value_2 = 15;
+    $base_value_3 = 25;
+}else if($age == 4 && $block_type = "arabica"){
+    $base_value_1 = 25;
+    $base_value_2 = 15;
+    $base_value_3 = 25;
+}else if($age == 1 && $block_type = "robusta"){
+    $base_value_1 = 38;
+    $base_value_2 = 28;
+    $base_value_3 = 28;
+}else if($age == 2 && $block_type = "robusta"){
+    $base_value_1 = 38;
+    $base_value_2 = 28;
+    $base_value_3 = 38;
+}else if($age == 3 && $block_type = "robusta"){
+    $base_value_1 = 38;
+    $base_value_2 = 28;
+    $base_value_3 = 38;
+}
+else if($age == 4 && $block_type = "robusta"){
+    $base_value_1 = 40;
+    $base_value_2 = 30;
+    $base_value_3 = 40;
+}
 if($initial_value<=1000){
     $base_value_1 = $standard_value_1 + 20;
     $base_value_2 = $standard_value_2 + 20;
@@ -42,7 +82,6 @@ if($initial_value<=1000){
     echo ":";
     echo round($base_value_3);
     echo "<br>";
-}
 }
 else if($initial_value>1000){
     $base_value_1 = $standard_value_1 + 30;
