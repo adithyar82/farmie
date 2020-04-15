@@ -376,7 +376,7 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/chicken.png" alt="">
+                <img src="img/core-img/soil-icon.png" alt="">
               </div>
               <span>Farming practice for</span>
               <h4>Soil Management</h4>
@@ -402,7 +402,7 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/pig.png" alt="">
+                <img src="img/core-img/shade-icon.png" alt="">
               </div>
               <span>Farming practice for</span>
               <h4>Shade Management</h4>
@@ -427,7 +427,7 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/sprout.png" alt="">
+                <img src="img/core-img/plant-icon.png" alt="">
               </div>
               <span>Farming Practice For</span>
               <h4>Plant Management</h4>
@@ -492,7 +492,7 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/chicken.png" alt="">
+                <img src="img/core-img/pepper-icon.png" alt="">
               </div>
               <span>Farming practice for</span>
               <h4>Pepper</h4>
@@ -513,7 +513,7 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/pig.png" alt="">
+                <img src="img/core-img/ginger-icon.png" alt="">
               </div>
               <span>Farming practice for</span>
               <h4>Ginger</h4>
@@ -535,7 +535,7 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/sprout.png" alt="">
+                <img src="img/core-img/banana-icon.png" alt="">
               </div>
               <span>Farming Practice For</span>
               <h4>Banana</h4>
@@ -555,7 +555,7 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/vegetable.png" alt="">
+                <img src="img/core-img/orange-icon.png" alt="">
               </div>
               <span>Farming practice for</span>
               <h4>Orange</h4>
@@ -574,7 +574,7 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/chicken.png" alt="">
+                <img src="img/core-img/cow-icon.png" alt="">
               </div>
               <span>Farming practice for</span>
               <h4>Cattle Management</h4>
@@ -595,7 +595,7 @@
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/pig.png" alt="">
+                <img src="img/core-img/arecanut-icon.png" alt="">
               </div>
               <span>Farming practice for</span>
               <h4>Areca-nut</h4>
