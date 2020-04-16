@@ -87,8 +87,8 @@
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </li>
-                  <li><a href="farming_diseases.php">Our Product</a></li>
-                  <li><a href="farming-practice.html">Farming Practice</a></li>
+                  <li><a href="farming_diseases.php">Farming Diseases</a></li>
+                  <li><a href="machinery.php">Machinery</a></li>
                   <li><a href="news.html">News</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -224,16 +224,16 @@
               <h2><span>March </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Tracing and collar pruning/Uprooting/Burning of White Stem Borer affected Arabica plants.
+            <p style = "font-size:18px;">Tracing and collar pruning/Uprooting/Burning of White Stem Borer affected Arabica plants.
             If stumps to be stored, immerse them in water for 10 days<br>
-             Spray Baylaton (160 gram/200 liters of water) or Contaf (400 ml / 200 liters of water) for
+            Spray Baylaton (160 gram/200 liters of water) or Contaf (400 ml / 200 liters of water) for
             susceptible varities like S. 795 and Cauvery to control leaf rust<br>
-             Complete harvesting and processing of robusta, collection of left over and fallen berries<br>
-             Complete pruning of Arabica and robusta<br>
-             Backing irrigation of robusta<br>
-             Collect and burn pupae of caterpillars in endemic areas, control measures against mealy
+            Complete harvesting and processing of robusta, collection of left over and fallen berries<br>
+            Complete pruning of Arabica and robusta<br>
+            Backing irrigation of robusta<br>
+            Collect and burn pupae of caterpillars in endemic areas, control measures against mealy
             bugs, if found<br>
-             Irrigation of young plants</p>
+            Irrigation of young plants</p>
           </div>
         </div>
 
@@ -256,17 +256,17 @@
               <h2><span>April</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Complete tracing and collar pruning/Uprooting/Burning of White Stem Borer affected
+            <p style = "font-size:18px;">Complete tracing and collar pruning/Uprooting/Burning of White Stem Borer affected
             Arabica plants. If stumps to be stored, immerse them in water for 10 days<br>
-             Complete the spraying of Baylaton (160 gram/200 liters of water) or Contaf (400 ml / 200
+            Complete the spraying of Baylaton (160 gram/200 liters of water) or Contaf (400 ml / 200
             liters of water) for susceptible varities like S. 795 and Cauvery to control leaf rust<br>
-             Spray chloropyriphos (600 ml / 200 liters of water) to main stem and thick primary branches
+            Spray chloropyriphos (600 ml / 200 liters of water) to main stem and thick primary branches
             of Arabica plants<br>
-             Apply compost or organic manures, if sufficient moisture is available in soil<br>
-             Spray Dithane M-45 or Indofil M-45 @ 5 gram / liter if cercospora leaf spot is noticed<br>
-             Spray Tilt (0.8 ml per liter), if stem necrosis is noticed. Repeat spray once in a month till they
+            Apply compost or organic manures, if sufficient moisture is available in soil<br>
+            Spray Dithane M-45 or Indofil M-45 @ 5 gram / liter if cercospora leaf spot is noticed<br>
+            Spray Tilt (0.8 ml per liter), if stem necrosis is noticed. Repeat spray once in a month till they
             attain field planting stage<br>
-             Take up line marking and opening of pits in new clearings</p>
+            Take up line marking and opening of pits in new clearings</p>
           </div>
         </div>
 
@@ -289,14 +289,14 @@
               <h2><span>May</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Spray 0.5 % Bordeaux Mixture against leaf rust between May-June before the start of
+            <p style = "font-size:18px;">Spray 0.5 % Bordeaux Mixture against leaf rust between May-June before the start of
             monsoon<br>
-             Apply pre monsoon fertilizers<br>
-             Regulate permanent shade trees towards the end of May<br>
-             Weeding<br>
-             Renovate cradle pits and drainage channels<br>
-             Drench Bavistin @ 3 liter per plant, if root disease noticed<br>
-             Opening and closing of pits for planting coffee and shade tree saplings</p>
+            Apply pre monsoon fertilizers<br>
+            Regulate permanent shade trees towards the end of May<br>
+            Weeding<br>
+            Renovate cradle pits and drainage channels<br>
+            Drench Bavistin @ 3 liter per plant, if root disease noticed<br>
+            Opening and closing of pits for planting coffee and shade tree saplings</p>
           </div>
         </div>
 
@@ -319,11 +319,11 @@
               <h2><span>June </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Take up dadap, silver and other shade trees saplings planting<br>
-             Handling, Centering and Desuckering<br>
-             Spray 1.0 % Bordeaux mixture spray in Black rot endemic areas<br>
-             Remove overhead shade, if monsoon sets and cloudy weather prevails<br>
-             Supply planting / Planting of Ball plants (18 month old seedlings</p>
+            <p style = "font-size:18px;">Take up dadap, silver and other shade trees saplings planting<br>
+            Handling, Centering and Desuckering<br>
+            Spray 1.0 % Bordeaux mixture spray in Black rot endemic areas<br>
+            Remove overhead shade, if monsoon sets and cloudy weather prevails<br>
+            Supply planting / Planting of Ball plants (18 month old seedlings</p>
           </div>
         </div>
 
@@ -345,11 +345,11 @@
               <h2><span>July</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Handling, Centering and Desuckering<br>
-             Remove black rot affected braches, berries, leaves and destroy<br>
-             Spray Bavistin (120 Gram/ 200 liters) in black rot affected areas, provide drainage<br>
-             Weeding<br>
-             Supply planting</p>
+            <p style = "font-size:18px;">Handling, Centering and Desuckering<br>
+            Remove black rot affected braches, berries, leaves and destroy<br>
+            Spray Bavistin (120 Gram/ 200 liters) in black rot affected areas, provide drainage<br>
+            Weeding<br>
+            Supply planting</p>
           </div>
         </div>
 
@@ -372,13 +372,13 @@
               <h2><span>August</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Continue Handling, Centering and Desuckering<br>
-             Spray Bavistin (120 Gram/ 200 liters) in black rot affected areas, provide drainage<br>
-             Weeding<br>
-             Supply planting<br>
-             Tracing and collar pruning/Uprooting/Burning of White Stem Borer affected Arabica plants.
+            <p style = "font-size:18px;">Continue Handling, Centering and Desuckering<br>
+            Spray Bavistin (120 Gram/ 200 liters) in black rot affected areas, provide drainage<br>
+            Weeding<br>
+            Supply planting<br>
+            Tracing and collar pruning/Uprooting/Burning of White Stem Borer affected Arabica plants.
             If stumps to be stored, immerse them in water for 10 days<br>
-             If berry borer found, spray chloropyriphos (600 ml/200 liters)</p>
+            If berry borer found, spray chloropyriphos (600 ml/200 liters)</p>
           </div>
         </div>
 
@@ -401,15 +401,15 @@
               <h2><span>September</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Planting coffee and shade trees saplings in young clearings<br>
-             Spray 0.5 % Bordeaux Mixture or Contaf (@ 400 ml / 200 liters) against leaf rust during post
+            <p style = "font-size:18px;">Planting coffee and shade trees saplings in young clearings<br>
+            Spray 0.5 % Bordeaux Mixture or Contaf (@ 400 ml / 200 liters) against leaf rust during post
             monsoon<br>
-             Tracing and collar pruning/Uprooting/Burning of White Stem Borer affected Arabica plants.
+            Tracing and collar pruning/Uprooting/Burning of White Stem Borer affected Arabica plants.
             Spray chloropyriphos (600 ml / 200 liters of water) to main stem and thick primary branches
             of Arabica plants<br>
-             Post monsoon fertilizer application<br>
-             Collect and burn berry borer infested berries, install berry borer traps<br>
-             Trace, collect and burn shot hole affected branches, spray Tilt (160 ml / 200 liters) in young
+            Post monsoon fertilizer application<br>
+            Collect and burn berry borer infested berries, install berry borer traps<br>
+            race, collect and burn shot hole affected branches, spray Tilt (160 ml / 200 liters) in young
             robusta plants to control against shot hole borer</p>
           </div>
         </div>
@@ -433,18 +433,18 @@
               <h2><span>October</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Complete the spray 0.5 % Bordeaux Mixture or Contaf (@ 400 ml / 200 liters) against leaf
+            <p style = "font-size:18px;">Complete the spray 0.5 % Bordeaux Mixture or Contaf (@ 400 ml / 200 liters) against leaf
             rust<br>
-             Complete the spray chloropyriphos (600 ml / 200 liters of water) to main stem and thick
+            Complete the spray chloropyriphos (600 ml / 200 liters of water) to main stem and thick
             primary branches of Arabica plants<br>
-             Complete the post monsoon manuring<br>
-             Trace, collect and burn shot hole affected branches, spray Tilt (160 ml / 200 liters) in young
+            Complete the post monsoon manuring<br>
+            Trace, collect and burn shot hole affected branches, spray Tilt (160 ml / 200 liters) in young
             robusta plants to control against shot hole borer<br>
-             Handling, Centering and Desuckering<br>
-             Clean weeding in Arabica to facilitate harvesting<br>
-             Open cradle pits in slopy areas<br>
-             Scuffling in established plantations<br>
-             If root disease is noticed, drench soil with Bavisting or Tilt, apply compost enriched with
+            Handling, Centering and Desuckering<br>
+            Clean weeding in Arabica to facilitate harvesting<br>
+            Open cradle pits in slopy areas<br>
+            Scuffling in established plantations<br>
+            If root disease is noticed, drench soil with Bavisting or Tilt, apply compost enriched with
             Trichoderma @ 5-10 Kg per plant</p>
           </div>
         </div>
@@ -468,14 +468,14 @@
               <h2><span>November</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Commence harvesting and processing of Arabica coffee<br>
-             Clean weeding in robusta<br>
-             Tracing of berry borer and installation of berry borer traps in robusta<br>
-             Tracing and burning of shot hole borer in robusta<br>
-             Application of lime to correct soil pH<br>
-             Winter irrigation in robusta<br>
-             Cover digging in young plantations<br>
-             Forking, mulching and staking in young plantations</p>
+            <p style = "font-size:18px;">Commence harvesting and processing of Arabica coffee<br>
+            Clean weeding in robusta<br>
+            Tracing of berry borer and installation of berry borer traps in robusta<br>
+            Tracing and burning of shot hole borer in robusta<br>
+            Application of lime to correct soil pH<br>
+            Winter irrigation in robusta<br>
+            Cover digging in young plantations<br>
+            Forking, mulching and staking in young plantations</p>
           </div>
         </div>
 
@@ -498,11 +498,11 @@
               <h2><span>December</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p style = "font-size:18px;"> Continue harvesting and processing of Arabica coffee<br>
-             Commence harvesting and processing of robusta coffee<br>
-             Application of lime to correct soil pH<br>
-             Winter irrigation in robusta<br>
-             Collection of jungle soil, sand and cattle manure for nursery preparation</p>
+            <p style = "font-size:18px;">Continue harvesting and processing of Arabica coffee<br>
+            Commence harvesting and processing of robusta coffee<br>
+            Application of lime to correct soil pH<br>
+            Winter irrigation in robusta<br>
+            Collection of jungle soil, sand and cattle manure for nursery preparation</p>
           </div>
         </div>
 
