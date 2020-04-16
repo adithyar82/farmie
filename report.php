@@ -136,7 +136,7 @@ if(isset($_POST['submit'])){
       <!-- Section Heading -->
       <div class="section-heading">
         <!-- <p>Contact now</p> -->
-        <h2 style="margin-left: 30px"><span>Block Details</span></h2>
+        <h2 style="margin-left: 30px"><span>Report Details</span></h2>
         <img style="margin-left: 30px" src="img/core-img/decor.png" alt="">
       </div>
       <!-- Contact Form Area -->
@@ -147,23 +147,7 @@ if(isset($_POST['submit'])){
               <input name = "block_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Name" disabled>
             </div>
             <div class="col-lg-3">
-              <input name = "block_name" type="text" class="form-control" style = "font-size: 20px;"  placeholder="Block Name">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input name = "name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control"  value = "Block Type" disabled>
-            </div>
-            <div class="col-lg-3">
-            <select name = "yield_type_1" id="yield_type_1">
-                <option value="Arabica" style = "font-size: 20px;" >Arabica</option>
-                <option value="Robusta" style = "font-size: 20px;" >Robusta</option>
-            </select>
+              <input name = "block_name" type="text" class="form-control" style = "font-size: 20px;" >
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -176,7 +160,7 @@ if(isset($_POST['submit'])){
               <input name = "blocK_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Area" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name = "blocK_name" style = "font-size: 20px;" placeholder="Block Area">
+              <input type="text" class="form-control" name = "blocK_name" style = "font-size: 20px;">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -186,10 +170,10 @@ if(isset($_POST['submit'])){
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="age" value = "Age of Plants" disabled>
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="age" value = "Total Nutrients" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name="age" style = "font-size: 20px;" placeholder="Age of Plants">
+              <input type="text" class="form-control" name="age" style = "font-size: 20px;">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -197,179 +181,91 @@ if(isset($_POST['submit'])){
             </div>
             <div class="col-lg-3">
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Spacing" disabled>
-            </div>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="spacing" style = "font-size: 20px;" placeholder="Spacing">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="shade" value = "Shade" disabled>
-            </div>
-            <div class="col-lg-3">
-              <label class="checkbox-inline">
-                <input name="shade"  type="checkbox" value="low">Low &nbsp;
-              </label>
-              <label class="checkbox-inline">
-                <input name="shade"  type="checkbox" value="medium">Medium &nbsp;
-              </label>
-              <label class="checkbox-inline">
-                <input name="shade" type="checkbox" value="high">High &nbsp;
-              </label>
             </div>
             
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="name" value = "Total Area" disabled> -->
+            <br>
+            <div class="col-lg-4">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Pre Blosson" disabled>
             </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-4">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Post Blosson" disabled>
             </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="yield_type" value = "Yield Type" disabled>
+            <div class="col-lg-4">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Summer" disabled>
             </div>
-            <div class="col-lg-3">
-            <select name="yield_type" id="yield_type">
-                <option value="Cherry" style = "font-size: 20px;" >Cherry</option>
-                <option value="Parchment" style = "font-size: 20px;" >Parchment</option>
-            </select>
-            </div><br>
+            <div class="col-lg-4">
+              <h3> Lime </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Lime </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Lime </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Nutrients </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Nutrients </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Nutrients </h3>
+            </div>
           </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+            <div class="col-lg-2">
+              <h3> N :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
             </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-2">
+              <h3> Bag </h3>
             </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="number_of_bags" value = "Number of Bags" disabled>
+            <div class="col-lg-2">
+              <h3> N :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
             </div>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="number_of_bags" style = "font-size: 20px;" placeholder="Number of Bags">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+            <div class="col-lg-2">
+              <h3> Bag </h3>
             </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-2">
+              <h3> N :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
             </div>
-            <div class="col-lg-6">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="name" value = "Soil Report" disabled> -->
-              <h3> Soil Report </h3>
+            <div class="col-lg-2">
+              <h3> Bag </h3>
             </div>
-            <div class="col-lg-3">
-              <!-- <label class="checkbox-inline">
-                <input type="checkbox" value="">Low &nbsp;
-              </label>
-              <label class="checkbox-inline">
-                <input type="checkbox" value="">Medium &nbsp;
-              </label>
-              <label class="checkbox-inline">
-                <input type="checkbox" value="">High &nbsp;
-              </label> -->
+            <div class="col-lg-2">
+              <h3> P :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
             </div>
-            <div class="col-lg-">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" class="form-control" name="name" value = "Total Area" disabled> -->
+            <div class="col-lg-2">
+              <h3> Bag </h3>
             </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-2">
+              <h3> P :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
             </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "% Organic Carbon (OC)" disabled>
+            <div class="col-lg-2">
+              <h3> Bag </h3>
             </div>
-            <div class="col-lg-3">
-            <select id="organic_carbon">
-                <option value="Low (< 1.0)" style = "font-size: 20px;" >Low (< 1.0)</option>
-                <option value="Medium (1-2.5)" style = "font-size: 20px;" >Medium (1-2.5)</option>  
-                <option value="High (> 2.5)" style = "font-size: 20px;" >High (> 2.5)</option>              >
-            </select>
-            </div><br>
-          </br>
-          <div class="col-lg-3">
-              <input type="text" class="form-control" name="organic_carbon" style = "font-size: 20px;" placeholder="Organic Carbon">
-            </div><br>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-2">
+              <h3> P :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
             </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="phosphorus" value = "P (Phosphorus) kg/acre" disabled>
+            <div class="col-lg-2">
+              <h3> Bag </h3>
             </div>
-            <div class="col-lg-3">
-            <select id="phosphorus">
-                <option value="Low (< 9.0)" style = "font-size: 20px;">Low (< 9.0)</option>
-                <option value="Medium (9-22)" style = "font-size: 20px;">Medium (9-22)</option>
-                <option value="High (> 22.0)" style = "font-size: 20px;">High (> 22.0)</option>
-            </select>
-            </div><br>
-          </br>
-          <div class="col-lg-3">
-              <input type="text" class="form-control" name="phosphorus" style = "font-size: 20px;" placeholder="Phosphorus">
-            </div><br>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-2">
+              <h3> K :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
             </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="potassium" value = "K (Potassium) kg/acre" disabled>
+            <div class="col-lg-2">
+              <h3> Bag </h3>
             </div>
-            <div class="col-lg-3">
-            <select id="potassium">
-                <option value="Low (< 125.0)" style = "font-size: 20px;" >Low (< 125.0)</option>
-                <option value="Low (< 125.0)" style = "font-size: 20px;" >Low (< 125.0)</option>
-                <option value="High (> 250.0)" style = "font-size: 20px;"> High (> 250.0)</option>
-            </select>
-            </div><br>
-          </br>
-          <div class="col-lg-3">
-              <input type="text" class="form-control" name="potassium" style = "font-size: 20px;" placeholder="Potassium">
-            </div><br>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-2">
+              <h3> K :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
             </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "pH" disabled>
+            <div class="col-lg-2">
+              <h3> Bag </h3>
             </div>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="email"  style = "font-size: 20px;" placeholder="pH">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+            <div class="col-lg-2">
+              <h3> K :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
             </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            <div class="col-lg-2">
+              <h3> Bag </h3>
             </div>
-            <div class="col-lg-3">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "LR pH" disabled>
-            </div>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="email" style = "font-size: 20px;"  placeholder="LR pH">
-            </div><br>
-          </br>
-            <div class="col-lg-3">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
-            </div>
-            <div class="col-lg-3">
-              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
-            </div>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="rainfall" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $rainfall ?>" hidden>
-            </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="rainfall_count" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $rainfall_count ?>" hidden>
-            </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="season_count" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $season_count ?>" hidden>
-            </div><br>
-            <input type = "submit" name="submit">Submit</a>
-          <div>
         </form>
       </div>
     </div>
