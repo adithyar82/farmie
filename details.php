@@ -157,10 +157,10 @@ if(isset($_POST['submit'])){
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
             <div class="col-lg-3">
-              <input name = "block_type" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Type" disabled>
+              <input name = "name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control"  value = "Block Type" disabled>
             </div>
             <div class="col-lg-3">
-            <select name = "yield_type" id="block_type">
+            <select name = "yield_type_1" id="yield_type_1">
                 <option value="Arabica" style = "font-size: 20px;" >Arabica</option>
                 <option value="Robusta" style = "font-size: 20px;" >Robusta</option>
             </select>
@@ -236,7 +236,7 @@ if(isset($_POST['submit'])){
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="yield_type" value = "Yield Type" disabled>
             </div>
             <div class="col-lg-3">
-            <select name="yield_type_1" id="yield_type">
+            <select name="yield_type" id="yield_type">
                 <option value="Cherry" style = "font-size: 20px;" >Cherry</option>
                 <option value="Parchment" style = "font-size: 20px;" >Parchment</option>
             </select>
