@@ -87,8 +87,8 @@
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </li>
-                  <li><a href="farming_diseases.php">Our Product</a></li>
-                  <li><a href="farming-practice.html">Farming Practice</a></li>
+                  <li><a href="farming_diseases.php">Farming Diseases</a></li>
+                  <li><a href="farming-practice.php">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -129,7 +129,7 @@
       <div class="row h-100 align-items-center">
         <div class="col-12">
           <div class="breadcrumb-text">
-            <h2>Farming Equipments</h2>
+            <h2>Farming Machinery and Equipments</h2>
           </div>
         </div>
       </div>
@@ -140,7 +140,7 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Farming Equipments</li>
+          <li class="breadcrumb-item active" aria-current="page">Farming Machinery and Equipments</li>
         </ol>
       </nav>
     </div>

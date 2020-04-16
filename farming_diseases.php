@@ -31,7 +31,7 @@
             <div class="top-header-content d-flex align-items-center justify-content-between">
               <!-- Top Header Content -->
               <div class="top-header-meta">
-                <p>Welcome to <span>Farmie</span>, we hope you will enjoy FARMING DISEASES and have good experience</p>
+                <p>Welcome to <span>Kaapi Nutrition</span>, we hope you will enjoy Farming and have good experience</p>
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
@@ -87,8 +87,8 @@
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </li>
-                  <li><a href="farming_diseases.php">Our Product</a></li>
-                  <li><a href="farming-practice.html">Farming Practice</a></li>
+                  <li><a href="machinery.php">Machinery</a></li>
+                  <li><a href="farming-practice.php">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -129,7 +129,7 @@
       <div class="row h-100 align-items-center">
         <div class="col-12">
           <div class="breadcrumb-text">
-            <h2>Our Product</h2>
+            <h2>Diseases Symptoms and Control Measures</h2>
           </div>
         </div>
       </div>
