@@ -84,13 +84,13 @@
                           <li><a href="news-details.html">News Details</a></li>
                         </ul>
                       </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                   </li>
                   <li><a href="farming_diseases.php">Farming Diseases</a></li>
                   <li><a href="farming-practice.php">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <!-- Search Icon -->
                 <div id="searchIcon">

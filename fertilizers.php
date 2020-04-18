@@ -6,6 +6,10 @@ $phosphorus = $_POST['phosphorus'];
 $potassium = $_POST['potassium'];
 $shade = $_POST['shade'];
 $age = $_POST['age'];
+$block_name = $_POST['block_name'];
+$total_area = $_POST['total_area'];
+$pH_value = $_POST['pH_value'];
+$LR_pH_value = $_POST['LR_pH_value'];
 $rainfall_count = $_POST['rainfall_count'];
 $season_count = $_POST['season_count'];
 $yield_type = $_POST['yield_type'];
@@ -97,13 +101,13 @@ $number_of_bags = $_POST['number_of_bags'];
                           <li><a href="news-details.html">News Details</a></li>
                         </ul>
                       </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                   </li>
                   <li><a href="farming_diseases.php">Our Product</a></li>
                   <li><a href="farming-practice.html">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <!-- Search Icon -->
                 <div id="searchIcon">
@@ -174,57 +178,34 @@ $number_of_bags = $_POST['number_of_bags'];
             </div><br>
           </br>
           <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "<?php echo $rainfall ?>" hidden>
             </div>
             <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name = "name" value = "<?php echo $shade ?>" hidden>
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name="rainfall" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $rainfall ?>" hidden>
+              <input type="text" class="form-control" name="name" style = "font-size: 20px;"  placeholder="name" value = "<?php echo $rainfall ?>" hidden>
             </div><br>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name="shade" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $shade ?>" hidden>
+              <input type="text" class="form-control" name="name" style = "font-size: 20px;"  placeholder="name" value = "<?php echo $shade ?>" hidden>
             </div><br>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name="organic_carbon" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $organic_carbon ?>" hidden>
+              <input type="text" class="form-control" name="organic_carbon" style = "font-size: 20px;"  placeholder="name" value = "<?php echo $organic_carbon ?>" hidden>
             </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="phosphorus" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $phosphorus ?>" hidden>
-            </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="potassium" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $potassium ?>" hidden>
-            </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="shade" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $shade ?>" hidden>
-            </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="age" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $age ?>" hidden>
-            </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="rainfall_count" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $rainfall_count ?>" hidden>
-            </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="season_count" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $season_count ?>" hidden>
-            </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="yield_type" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $yield_type ?>" hidden>
-            </div><br>
-            <div class="col-lg-3">
-              <input type="text" class="form-control" name="number_of_bags" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $number_of_bags ?>" hidden>
-            </div><br>
+           
             
           <div class="col-lg-4">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="organic_carbon" value = "<?php echo $organic_carbon ?>" hidden>
             </div>
             <div class="col-lg-4">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="phosphorus" value = "<?php echo $phosphorus ?>" hidden>
             </div>
           </br>
           <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="potassium" value = "<?php echo $potassium ?>" hidden>
             </div>
             <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="age" value = "<?php echo $age ?>" hidden>
             </div>
           </br>
           <div class="col-lg-4">
@@ -242,31 +223,30 @@ $number_of_bags = $_POST['number_of_bags'];
             </select>
             </div><br>
             <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="block_name" value = "<?php echo $block_name ?>" hidden>
             </div>
             <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="total_area" value = "<?php echo $total_area ?>" hidden>
             </div>
           </br>
           
             <div class="col-lg-4">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" value = "<?php echo $pH_value ?>" hidden>
             </div>
             <div class="col-lg-4">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="LR_pH_value" value = "<?php echo $LR_pH_value ?>" hidden>
             </div>
           </br>
           <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="rainfall_count" value = "<?php echo $rainfall_count ?>" hidden>
             </div>
             <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="season_count" value = "<?php echo $season_count ?>" hidden>
             </div>
           </br>
           <div class="col-lg-4">
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Potassium (K)" disabled>
             </div>
-            <div class="col-lg-4">
             <div class="col-lg-4">
             <select name = "potassium_1" id="potassium_1">
                 <option value="MOP" style = "font-size: 20px;"><b>MOP (Muriate of Potassium)</b></option>
@@ -280,18 +260,20 @@ $number_of_bags = $_POST['number_of_bags'];
             </div><br>
             </div><br>
             <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="yield_type" value = "<?php echo $yield_type ?>" hidden>
             </div>
             <div class="col-lg-2">
-              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Phosphorus" disabled> -->
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="number_of_bags" value = "<?php echo $number_of_bags ?>" hidden>
             </div>
           </br>
-          <input type = "submit" name="submit">Submit</a>
+          <input class="btn famie-btn" type = "submit" name="submit" style="margin-left:30%;" value ="submit"></a>
+          <input class="btn famie-btn" type = "submit" name="submit" style="margin-left:30%;" value ="next"></a>
         </form>
       </div>
     </div>
   </div>
   <br>
+  
   <!-- ##### Hero Area End ##### -->
 
   <!-- ##### Famie Benefits Area Start ##### -->
