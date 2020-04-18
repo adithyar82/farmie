@@ -84,14 +84,14 @@
                           <li><a href="news-details.html">News Details</a></li>
                         </ul>
                       </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                   </li>
                   <li><a href="machinery.php">Machinery</a></li>
                   <li><a href="farming_diseases.php">Farming Diseases</a></li>
                   <li><a href="farming-practice.php">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <!-- Search Icon -->
                 <div id="searchIcon">
@@ -183,7 +183,7 @@
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Total Area" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name="email" placeholder="Total Area">
+              <input type="text" class="form-control" name="total_area" placeholder="Total Area">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -245,7 +245,7 @@
             <div class="col-lg-3">
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
-            <input type ="submit" name ="submit">Submit</a>
+            <input type ="submit" class="btn famie-btn mt-4" name ="submit"></a>
         </form>
       </div>
     </div>

@@ -91,13 +91,13 @@ if(isset($_POST['submit'])){
                           <li><a href="news-details.html">News Details</a></li>
                         </ul>
                       </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                   </li>
                   <li><a href="farming_diseases.php">Our Product</a></li>
                   <li><a href="farming-practice.html">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <!-- Search Icon -->
                 <div id="searchIcon">
@@ -176,7 +176,7 @@ if(isset($_POST['submit'])){
               <input name = "blocK_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Area" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name = "blocK_name" style = "font-size: 20px;" placeholder="Block Area">
+              <input type="text" class="form-control" name = "total_area" style = "font-size: 20px;" placeholder="Block Area">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -337,7 +337,7 @@ if(isset($_POST['submit'])){
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "pH" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name="email"  style = "font-size: 20px;" placeholder="pH">
+              <input type="text" class="form-control" name="pH_value"  style = "font-size: 20px;" placeholder="pH">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -350,7 +350,7 @@ if(isset($_POST['submit'])){
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "LR pH" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name="email" style = "font-size: 20px;"  placeholder="LR pH">
+              <input type="text" class="form-control" name="LR_pH_value" style = "font-size: 20px;"  placeholder="LR pH">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -368,7 +368,20 @@ if(isset($_POST['submit'])){
             <div class="col-lg-3">
               <input type="text" class="form-control" name="season_count" style = "font-size: 20px;"  placeholder="LR pH" value = "<?php echo $season_count ?>" hidden>
             </div><br>
-            <input type = "submit" name="submit">Submit</a>
+            
+            <div class="col-lg-3">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+            </div>
+            <div class="col-lg-3">
+              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            </div>
+            <div class="col-lg-3">
+              <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+            </div>
+            <div class="col-lg-3">
+              <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+            </div>
+            <input type = "submit" class="btn famie-btn mt-4" style = "margin-right:35%" name="submit"></a>
           <div>
         </form>
       </div>

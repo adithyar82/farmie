@@ -52,7 +52,7 @@ famie/
     │   ├── style.scss
     │   ├── widget.scss
     ├── about.html
-    ├── contact.html
+    ├── contact.php
     ├── farming-practice.html
     ├── index.php
     ├── news-details.html
