@@ -90,7 +90,7 @@
                   <li><a href="farming_diseases.php">Farming Diseases</a></li>
                   <li><a href="machinery.php">Machinery</a></li>
                   <li><a href="news.html">News</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <!-- Search Icon -->
                 <div id="searchIcon">
@@ -158,7 +158,7 @@
             <!-- Section Heading -->
             <div class="section-heading">
               <p></p>
-              <h2><span>JANUARY </h2>
+              <h2><span>JANUARY</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
             <p style = "font-size:18px;">Complete arabica harvesting, collect completely left over and fallen berries to avoid coffee
@@ -564,8 +564,8 @@
               <p>Lorem ipsum dolor sit amet, consecte stare adipiscing elit. In act honcus risus atiner Pellentesque risus.</p>
               <div class="contact-info">
                 <p><i class="fa fa-map-pin" aria-hidden="true"></i><span>120 Raymond Rd, New York</span></p>
-                <p><i class="fa fa-envelope" aria-hidden="true"></i><span>info.deercreative@gmail.com</span></p>
-                <p><i class="fa fa-phone" aria-hidden="true"></i><span>+84 223 9000</span></p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i><span>noreplykaapimanagement@gmail.com</span></p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i><span>+91 9483124000</span></p>
               </div>
             </div>
           </div>

@@ -31,7 +31,7 @@
             <div class="top-header-content d-flex align-items-center justify-content-between">
               <!-- Top Header Content -->
               <div class="top-header-meta">
-                <p>Welcome to <span>Farmie</span>, we hope you will enjoy farming and have good experience</p>
+                <p>Welcome to <span>Kaapi Nutrition</span>, we hope you will enjoy farming and have good experience</p>
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
@@ -84,26 +84,21 @@
                           <li><a href="news-details.html">News Details</a></li>
                         </ul>
                       </li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="contact.php">Contact</a></li>
                     </ul>
                   </li>
                   <li><a href="machinery.php">Machinery</a></li>
                   <li><a href="farming_diseases.php">Farming Diseases</a></li>
                   <li><a href="farming-practice.php">Farming Practice</a></li>
                   <li><a href="news.html">News</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <!-- Search Icon -->
                 <div id="searchIcon">
                   <i class="icon_search" aria-hidden="true"></i>
                 </div>
                 <!-- Cart Icon -->
-                <div id="cartIcon">
-                  <a href="#">
-                    <i class="icon_cart_alt" aria-hidden="true"></i>
-                    <span class="cart-quantity">2</span>
-                  </a>
-                </div>
+                
               </div>
               <!-- Navbar End -->
             </div>
@@ -134,12 +129,12 @@
           <div class="row h-100 align-items-center">
             <div class="col-12 col-lg-10">
               <div class="welcome-content">
-                  <h2 data-animation="fadeInDown" data-delay="200ms">Farm is more than land and crops</h2> &nbsp; &nbsp;<br>
-                  <h2 data-animation="fadeInDown" data-delay="200ms">It is 'HERITAGE' and 'CULTURE'.</h2>
+                  <h2 data-animation="fadeInDown" data-delay="200ms">Coffee Farm is more than land and crop</h2> &nbsp; &nbsp;<br>
+                  <h2 data-animation="fadeInDown" data-delay="200ms">It is 'HERITAGE' and 'CULTURE' of conserving 'NATURE'</h2>
                 <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
                   Morbi arcu mi, dictum eu luala, dapibus
                   interdum mollis.</p> -->
-                <a href="#" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+                <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
               </div>
             </div>
           </div>
@@ -152,12 +147,84 @@
           <div class="row h-100 align-items-center">
             <div class="col-12 col-lg-10">
               <div class="welcome-content">
-                <h2 data-animation="fadeInDown" data-delay="200ms">Farm is more than land and crops</h2><br>
-                <h2 data-animation="fadeInDown" data-delay="200ms">It is 'HERITAGE' and 'CULTURE'.</h2>
+                <h2 data-animation="fadeInDown" data-delay="200ms">Coffee Farm is more than land and crop</h2><br>
+                <h2 data-animation="fadeInDown" data-delay="200ms">It is 'HERITAGE' and 'CULTURE' of conserving 'NATURE'</h2>
                 <!-- <p data-animation="fadeInDown" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
                   Morbi arcu mi, dictum eu luala, dapibus
                   interdum mollis.</p> -->
-                <a href="#" class="btn famie-btn mt-4" data-animation="bounceInDown" data-delay="600ms">Contact Us</a>
+                <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInDown" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single Welcome Slides -->
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/15.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                  <h2 data-animation="fadeInDown" data-delay="200ms">Coffee Farm is more than land and crop</h2> &nbsp; &nbsp;<br>
+                  <h2 data-animation="fadeInDown" data-delay="200ms">It is 'HERITAGE' and 'CULTURE' of conserving 'NATURE'</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                  interdum mollis.</p> -->
+                <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single Welcome Slides -->
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/cb.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                  <h2 data-animation="fadeInDown" data-delay="200ms">Coffee Farm is more than land and crop</h2> &nbsp; &nbsp;<br>
+                  <h2 data-animation="fadeInDown" data-delay="200ms">It is 'HERITAGE' and 'CULTURE' of conserving 'NATURE'</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                  interdum mollis.</p> -->
+                <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single Welcome Slides -->
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/rb.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                  <h2 data-animation="fadeInDown" data-delay="200ms">Coffee Farm is more than land and crop</h2> &nbsp; &nbsp;<br>
+                  <h2 data-animation="fadeInDown" data-delay="200ms">It is 'HERITAGE' and 'CULTURE' of conserving 'NATURE'</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                  interdum mollis.</p> -->
+                <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single Welcome Slides -->
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/cs.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                  <h2 data-animation="fadeInDown" data-delay="200ms">Coffee Farm is more than land and crop</h2> &nbsp; &nbsp;<br>
+                  <h2 data-animation="fadeInDown" data-delay="200ms">It is 'HERITAGE' and 'CULTURE' of conserving 'NATURE'</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                  interdum mollis.</p> -->
+                <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
               </div>
             </div>
           </div>
@@ -396,7 +463,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="200ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/10.jpg" alt="">
+              <img src="img/bg-img/shade1.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -446,18 +513,20 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="600ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/14.jpg" alt="">
+              <img src="img/bg-img/irrigation.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
               <!-- Icon -->
               <div class="farming-icon">
-                <img src="img/core-img/vegetable.png" alt="">
+                <img src="img/core-img/irrigation.png" alt="">
               </div>
               <span>Farming practice for</span>
-              <h4>Diversification</h4>
-              <p>Under present social conditions a farmer can’t depend on a single crop/farming to get profit. Hence it is
-              highly essential to diversify with other crops and farming system along with coffee.</p>
+              <h4>Irrigation Management</h4>
+              <p>Coffee blooms once in a year, failure of blossom leads to 100% crop loss. Hence, its very essential to protect blossom through irrigation</p>
+              <p>Blossom Iriigation shall be given during summer (i.e., Feb-Mar) to endure blossom</p>
+              <p>Backing Irrigation shall be given within 21 days after blossom to retain coffee setting and avoid ovule abortion</p>
+              <p>Winter Irrigation practiced in robusta plantation is to endure more bearing wood for once in 15 days during winter</p>
             </div>
           </div>
         </div>
@@ -486,7 +555,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/9.jpg" alt="">
+              <img src="img/bg-img/pepper1.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -507,7 +576,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="200ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/10.jpg" alt="">
+              <img src="img/bg-img/ginger.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -529,7 +598,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="500ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/13.jpg" alt="">
+              <img src="img/bg-img/banana.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -549,7 +618,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="600ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/14.jpg" alt="">
+              <img src="img/bg-img/orange.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -589,7 +658,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="200ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/10.jpg" alt="">
+              <img src="img/bg-img/arecanut.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -611,7 +680,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="500ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/13.jpg" alt="">
+              <img src="img/bg-img/cardamom.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -799,11 +868,11 @@
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="footer-widget mb-80">
               <a href="#" class="foo-logo d-block mb-30"><img src="img/core-img/logo2.png" alt=""></a>
-              <p>Lorem ipsum dolor sit amet, consecte stare adipiscing elit. In act honcus risus atiner Pellentesque risus.</p>
+              <p>we hope you will enjoy farming and have good experience</p>
               <div class="contact-info">
                 <p><i class="fa fa-map-pin" aria-hidden="true"></i><span>X65B, Mahadeshwara Block, Somwarpete, Kodagu</span></p>
-                <p><i class="fa fa-envelope" aria-hidden="true"></i><span>info.deercreative@gmail.com</span></p>
-                <p><i class="fa fa-phone" aria-hidden="true"></i><span>+84 223 9000</span></p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i><span>noreplykaapimanagement@gmail.com</span></p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i><span>+91 9483124000</span></p>
               </div>
             </div>
           </div>
