@@ -267,7 +267,7 @@ $number_of_bags = $_POST['number_of_bags'];
             </div>
           </br>
           <input class="btn famie-btn" type = "submit" name="submit" style="margin-left:30%;" value ="submit"></a>
-          <input class="btn famie-btn" type = "submit" name="submit" style="margin-left:30%;" value ="next"></a>
+          <input class="btn famie-btn" type = "submit" name="submit" formaction="index_2.php" style="margin-left:30%;" value ="next"></a>
         </form>
       </div>
     </div>

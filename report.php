@@ -1,10 +1,3 @@
-<?php
-if(isset($_POST['submit'])){
-  $rainfall = $_POST['rainfall'];
-  $rainfall_count = count($_POST['rainfall']);
-  $season_count = count($_POST['season']);
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -131,15 +124,327 @@ if(isset($_POST['submit'])){
   <!-- ##### Header Area End ##### -->
 
   <!-- ##### Hero Area Start ##### -->
-  <div class="col-12">
-    <div class="contact-content mb-100">
+  
+      <!-- Contact Form Area -->
+      <?php 
+      $sql = "SELECT * FROM calculations;";
+      $result = $conn->query($sql);
+      if($result->num_rows>0){
+          while($row=$result->fetch_assoc()){
+            $nitrogen_base_value = $row['nitrogen_base_value'];
+            $phosphorus_base_value = $row['phosphorus_base_value'];
+            $potassium_base_value = $row['potassium_base_value'];
+            $nitrogen_average_value_1 = $row['$nitrogen_average_value_1'];
+            $phosphorus_average_value_1 = $row['phosphorus_average_value_1'];
+            $potassium_average_value_1 = $row['potassium_average_value_1'];
+            $nitrogen_final_value = $row['nitrogen_final_value'];
+            $phosphorus_final_value = $row['phosphorus_final_value'];
+            $potassium_final_value = $row['potassium_final_value'];
+            $lime = $row['lime'];
+            $block_name = $row['block_name'];
+            $block_area = $row['block_area'];
+            echo '
+            <div class="col-12">
+    <div class="">
       <!-- Section Heading -->
-      <div class="section-heading">
+      <div class="">
         <!-- <p>Contact now</p> -->
         <h2 style="margin-left: 30px"><span>Report Details</span></h2>
         <img style="margin-left: 30px" src="img/core-img/decor.png" alt="">
-      </div>
-      <!-- Contact Form Area -->
+      </div><div class="">
+            <form method="POST" action="fertilizers.php">
+              <div class="row" style = "margin-left: 10%" >
+                <div class="col-lg-3">
+                  <input name = "block_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Name" disabled>
+                </div>
+                <div class="col-lg-3">
+                  <input name = "block_name" type="text" class="form-control" style = "font-size: 20px;" value = "'.$block_name.'">
+                </div><br>
+              </br>
+                <div class="col-lg-3">
+                  <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+                </div>
+                <div class="col-lg-3">
+                  <!-- <input type="email" class="form-control" name="email" placeholder="'.$block_area.'"> -->
+                </div>
+                <div class="col-lg-3">
+                  <input name = "blocK_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Area" disabled>
+                </div>
+                <div class="col-lg-3">
+                  <input type="text" class="form-control" name = "blocK_name" style = "font-size: 20px;" value = "'.$block_area.'">
+                </div><br>
+              </br>
+                <div class="col-lg-3">
+                  <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+                </div>
+                <div class="col-lg-3">
+                  <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+                </div>
+                <div class="col-lg-3">
+                  <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="age" value = "Total Nutrients" disabled>
+                </div>
+                <div class="col-lg-3">
+                  <input type="text" class="form-control" name="age" style = "font-size: 20px;"  value = "'.$nitrogen_base_value.': '.$phosphorus_base_value.': '.$potassium_base_value.'">
+                </div><br>
+              </br>
+                <div class="col-lg-3">
+                  <!-- <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size = 10; class="form-control" name="name" value = "Total Area" disabled> -->
+                </div>
+                <div class="col-lg-3">
+                  <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
+                </div>
+                
+                <br>
+            ';
+            if($season_count == 1){
+              echo
+              '<div class="col-lg-4">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Pre Blosson" disabled>
+            </div>
+            <div class="col-lg-4">
+              
+            </div>
+            <div class="col-lg-4">
+              
+            </div>
+              <div class="col-lg-4">
+              <h3> Lime : '.$lime.' </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3>  </h3>
+            </div>
+          </br>
+            <div class="col-lg-2">
+              <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .' kg/acre </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.($nitrogen_final_value/50) .'</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3>  </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> '.$phosphorus_1.' :  '.round($phosphorus_final_value).'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '($phosphorus_final_value/50).'</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> '.$potassium_1.' : '.round($potassium_final_value).'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.($potassium_final_value/50).'</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3>  </h3>
+            </div>';
+
+              }
+          if($season_count == 2){
+              echo
+              '<div class="col-lg-4">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Pre Blosson" disabled>
+            </div>
+            <div class="col-lg-4">
+              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Post Blosson" disabled>
+            </div>
+            <div class="col-lg-4">
+              
+            </div><div class="col-lg-4">
+              <h3> Lime : '.$lime.' </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Lime : '.$lime.' </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+            </div>
+            <div class="col-lg-4">
+              <h3>  </h3>
+            </div>
+          </br>
+            <div class="col-lg-2">
+            <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($nitrogen_final_value/50),1).'</h3>
+            </div>
+            <div class="col-lg-2">
+            <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($nitrogen_final_value/50),1).'</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3>  </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($phosphorus_final_value/50),1).' </h3>
+            </div>
+            <div class="col-lg-2">
+             <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($phosphorus_final_value/50),1).'</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3>  </h3>
+            </div>
+            <div class="col-lg-2">
+            <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($potassium_final_value/50),1).' </h3>
+            </div>
+            <div class="col-lg-2">
+            <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($potassium_final_value/50),1).' </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3>  </h3>
+            </div>';
+          }
+            else if($season_count == 3){
+              echo
+              '<div class="col-lg-4">
+              <h3> Lime : '.$lime.' </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Lime : '.$lime.' </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Lime :'.$lime.' </h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+            </div>
+            <div class="col-lg-4">
+              <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+            </div>
+          </br>
+            <div class="col-lg-2">
+            <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($nitrogen_final_value/50),1).'</h3>
+            </div>
+            <div class="col-lg-2">
+            <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.($nitrogen_final_value/50) .' </h3>
+            </div>
+            <div class="col-lg-2">
+            <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($nitrogen_final_value/50),1).' </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.($phosphorus_final_value/50) .' </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($phosphorus_final_value/50),1).' </h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>    
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.($phosphorus_final_value/50) .' </h3>
+            </div>
+            <div class="col-lg-2">
+            <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($potassium_final_value/50),1).'</h3>
+            </div>
+            <div class="col-lg-2">
+            <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.($potassium_final_value/50) .'</h3>
+            </div>
+            <div class="col-lg-2">
+            <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+            </div>
+            <div class="col-lg-2">
+              <h3> Bag : '.round(($potassium_final_value/50),1).'</h3>
+            </div>';
+            }
+          }
+      }
+      ?>
       <div class="contact-form-area">
         <form method="POST" action="fertilizers.php">
           <div class="row" style = "margin-left: 10%" >
@@ -147,7 +452,7 @@ if(isset($_POST['submit'])){
               <input name = "block_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Name" disabled>
             </div>
             <div class="col-lg-3">
-              <input name = "block_name" type="text" class="form-control" style = "font-size: 20px;" >
+              <input name = "block_name" type="text" class="form-control" style = "font-size: 20px;" value = "<?php echo $block_name?>">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -160,7 +465,7 @@ if(isset($_POST['submit'])){
               <input name = "blocK_name" type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="name" value = "Block Area" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name = "blocK_name" style = "font-size: 20px;">
+              <input type="text" class="form-control" name = "blocK_name" style = "font-size: 20px;" value = "<?php echo $total_area?>">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -173,7 +478,7 @@ if(isset($_POST['submit'])){
               <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="age" value = "Total Nutrients" disabled>
             </div>
             <div class="col-lg-3">
-              <input type="text" class="form-control" name="age" style = "font-size: 20px;">
+              <input type="text" class="form-control" name="age" style = "font-size: 20px;"  value = "<?php echo round($nitrogen_base_value)?> : <?php echo round($phosphorus_base_value)?> : <?php echo round($potassium_base_value)?>">
             </div><br>
           </br>
             <div class="col-lg-3">
@@ -184,92 +489,263 @@ if(isset($_POST['submit'])){
             </div>
             
             <br>
-            <div class="col-lg-4">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Pre Blosson" disabled>
+            
+            <?php
+                if($season_count == 1){
+                echo
+                '<div class="col-lg-4">
+                <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Pre Blosson" disabled>
+              </div>
+              <div class="col-lg-4">
+                
+              </div>
+              <div class="col-lg-4">
+                
+              </div>
+                <div class="col-lg-4">
+                <h3> Lime : '.$lime.' </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3>  </h3>
+              </div>
+            </br>
+              <div class="col-lg-2">
+                <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .' kg/acre </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.($nitrogen_final_value/50) .'</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3>  </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> '.$phosphorus_1.' :  '.round($phosphorus_final_value).'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '($phosphorus_final_value/50).'</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> '.$potassium_1.' : '.round($potassium_final_value).'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.($potassium_final_value/50).'</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3>  </h3>
+              </div>';
+
+                }
+            if($season_count == 2){
+                echo
+                '<div class="col-lg-4">
+                <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Pre Blosson" disabled>
+              </div>
+              <div class="col-lg-4">
+                <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Post Blosson" disabled>
+              </div>
+              <div class="col-lg-4">
+                
+              </div><div class="col-lg-4">
+                <h3> Lime : '.$lime.' </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> Lime : '.$lime.' </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+              </div>
+              <div class="col-lg-4">
+                <h3>  </h3>
+              </div>
+            </br>
+              <div class="col-lg-2">
+              <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($nitrogen_final_value/50),1).'</h3>
+              </div>
+              <div class="col-lg-2">
+              <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($nitrogen_final_value/50),1).'</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3>  </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($phosphorus_final_value/50),1).' </h3>
+              </div>
+              <div class="col-lg-2">
+               <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($phosphorus_final_value/50),1).'</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3>  </h3>
+              </div>
+              <div class="col-lg-2">
+              <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($potassium_final_value/50),1).' </h3>
+              </div>
+              <div class="col-lg-2">
+              <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($potassium_final_value/50),1).' </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3>  </h3>
+              </div>';
+            }
+              else if($season_count == 3){
+                echo
+                '<div class="col-lg-4">
+                <h3> Lime : '.$lime.' </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> Lime : '.$lime.' </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> Lime :'.$lime.' </h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+              </div>
+              <div class="col-lg-4">
+                <h3> Nutrients :  '.round($nitrogen_average_value_1).' : '.round($phosphorus_average_value_1).' : '.round($potassium_average_value_1).'</h3>
+              </div>
+            </br>
+              <div class="col-lg-2">
+              <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($nitrogen_final_value/50),1).'</h3>
+              </div>
+              <div class="col-lg-2">
+              <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.($nitrogen_final_value/50) .' </h3>
+              </div>
+              <div class="col-lg-2">
+              <h3> '.$nitrogen_1.' : '.round($nitrogen_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($nitrogen_final_value/50),1).' </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.($phosphorus_final_value/50) .' </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($phosphorus_final_value/50),1).' </h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> '.$phosphorus_1.' : '.round($phosphorus_final_value) .'kg/acre</h3>    
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.($phosphorus_final_value/50) .' </h3>
+              </div>
+              <div class="col-lg-2">
+              <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($potassium_final_value/50),1).'</h3>
+              </div>
+              <div class="col-lg-2">
+              <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.($potassium_final_value/50) .'</h3>
+              </div>
+              <div class="col-lg-2">
+              <h3> '.$potassium_1.' : '.round($potassium_final_value) .'kg/acre</h3>
+              </div>
+              <div class="col-lg-2">
+                <h3> Bag : '.round(($potassium_final_value/50),1).'</h3>
+              </div>
+              </form>
+              </div>
             </div>
-            <div class="col-lg-4">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Post Blosson" disabled>
-            </div>
-            <div class="col-lg-4">
-              <input type="text" style = "background-color: #77b122; color: white; font-size: 20px;" size=10; class="form-control" name="spacing" value = "Summer" disabled>
-            </div>
-            <div class="col-lg-4">
-              <h3> Lime </h3>
-            </div>
-            <div class="col-lg-4">
-              <h3> Lime </h3>
-            </div>
-            <div class="col-lg-4">
-              <h3> Lime </h3>
-            </div>
-            <div class="col-lg-4">
-              <h3> Nutrients </h3>
-            </div>
-            <div class="col-lg-4">
-              <h3> Nutrients </h3>
-            </div>
-            <div class="col-lg-4">
-              <h3> Nutrients </h3>
-            </div>
-          </br>
-            <div class="col-lg-2">
-              <h3> N :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> Bag </h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> N :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> Bag </h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> N :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> Bag </h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> P :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> Bag </h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> P :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> Bag </h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> P :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> Bag </h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> K :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> Bag </h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> K :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> Bag </h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> K :  &nbsp;  &nbsp; &nbsp; kg/acre &nbsp;</h3>
-            </div>
-            <div class="col-lg-2">
-              <h3> Bag </h3>
-            </div>
-        </form>
-      </div>
-    </div>
-  </div>
+          </div>';
+              }
+            
+                
+            ?>
+            
+       
   <br>
   <!-- ##### Hero Area End ##### -->
 
@@ -509,3 +985,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </body>
 
 </html>
+
