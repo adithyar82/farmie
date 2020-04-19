@@ -67,26 +67,6 @@
                 <ul>
                   <li class="active"><a href="index.php">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <!-- <li><a href="#">Pages</a>
-                    <ul class="dropdown">
-                      <li><a href="index.php">Home</a></li>
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="farming-practice.php">Farming Practice</a></li>
-                      <li><a href="shop.html">Shop</a>
-                        <ul class="dropdown">
-                          <li><a href="machinery.php">Machinery</a></li>
-                          <li><a href="shop.html">Shop</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="news.html">News</a>
-                        <ul class="dropdown">
-                          <li><a href="news.html">News</a></li>
-                          <li><a href="news-details.html">News Details</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                  </li> -->
                   <li><a href="machinery.php">Machinery</a></li>
                   <li><a href="farming_diseases.php">Farming Diseases</a></li>
                   <li><a href="farming-practice.php">Farming Practice</a></li>
@@ -237,7 +217,7 @@
   <div class="col-12">
     <div class="contact-content mb-100">
       <!-- Section Heading -->
-      <div class="section-heading">
+      <div class="section-heading" style = "margin-left: 10%;">
         <!-- <p>Contact now</p> -->
         <h2 style="margin-left: 30px"><span>Estate Details</span></h2>
         <img style="margin-left: 30px" src="img/core-img/decor.png" alt="">
@@ -376,15 +356,15 @@
   < ##### Famie Benefits Area End ##### -->
 
   <!-- ##### About Us Area Start ##### -->
-  <section class="about-us-area">
+  <!-- <section class="about-us-area">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-center"> -->
 
         <!-- About Us Content -->
-        <div class="col-12 col-md-8">
+        <!-- <div class="col-12 col-md-8">
           <div class="about-us-content mb-100">
-            <!-- Section Heading -->
-            <div class="section-heading">
+            Section Heading -->
+            <!-- <div class="section-heading">
               <p>About us</p>
               <h2><span>Let Us</span> Tell You Our Story</h2>
               <img src="img/core-img/hand_pruner.jpeg" alt="">
@@ -392,20 +372,20 @@
             <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit. Etiam nunc elit, pretium atlanta urna veloci, fermentum malesuda mina. Donec auctor nislec neque sagittis, sit amet dapibus pellentesque donal feugiat. Nulla mollis magna non
               sanaliquet, volutpat do zutum, ultrices consectetur, ultrices at purus.</p>
             <a href="#" class="btn famie-btn mt-30">Read More</a>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div>  -->
 
         <!-- Famie Video Play -->
-        <div class="col-12 col-md-4">
+        <!-- <div class="col-12 col-md-4">
           <div class="famie-video-play mb-100">
-            <img src="img/bg-img/6.jpg" alt="">
+            <img src="img/bg-img/6.jpg" alt=""> -->
             <!-- Play Icon -->
-            <a href="http://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-icon"><i class="fa fa-play"></i></a>
+            <!-- <a href="http://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-icon"><i class="fa fa-play"></i></a>
           </div>
         </div>
 
       </div>
-    </div>
+    </div> -->
   <!-- ##### Services Area End ##### -->
 
   <!-- ##### FARMING DISEASES Area Start ##### -->
@@ -722,7 +702,7 @@
   <!-- ##### Farming Practice Area End ##### -->
 
   <!-- ##### Testimonial Area Start ##### -->
-  <section class="testimonial-area bg-img bg-overlay section-padding-100 jarallax" style="background-image: url('img/bg-img/15.jpg');">
+  <section class="testimonial-area bg-img bg-overlay section-padding-100 jarallax" style="background-image: url('img/bg-img/15.jpg'); margin-bottom:10%">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -803,21 +783,21 @@
   <!-- ##### Testimonial Area End ##### -->
 
   <!-- ##### Contact Area Start ##### -->
-  <section class="contact-area section-padding-100-0">
+  <!-- <section class="contact-area section-padding-100-0">
     <div class="container">
-      <div class="row justify-content-between">
+      <div class="row justify-content-between"> -->
 
         <!-- Contact Content -->
-        <div class="col-12 col-lg-5">
-          <div class="contact-content mb-100">
+        <!-- <div class="col-12 col-lg-5">
+          <div class="contact-content mb-100"> -->
             <!-- Section Heading -->
-            <div class="section-heading">
+            <!-- <div class="section-heading">
               <p>Contact now</p>
               <h2><span>Get In Touch</span> With Us</h2>
               <img src="img/core-img/decor.png" alt="">
-            </div>
+            </div> -->
             <!-- Contact Form Area -->
-            <div class="contact-form-area">
+            <!-- <div class="contact-form-area">
               <form action="index.php" method="post">
                 <div class="row">
                   <div class="col-lg-6">
@@ -839,7 +819,7 @@
               </form>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Contact Maps -->
         <!-- <div class="col-lg-6">
