@@ -35,7 +35,7 @@
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: infodeercreative@gmail.com</span></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: nareplykaapimanagement@gmail.com</span></a>
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +91 9483124000</span></a>
               </div>
             </div>
@@ -67,7 +67,7 @@
                 <ul>
                   <li class="active"><a href="index.php">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="#">Pages</a>
+                  <!-- <li><a href="#">Pages</a>
                     <ul class="dropdown">
                       <li><a href="index.php">Home</a></li>
                       <li><a href="about.html">About Us</a></li>
@@ -86,7 +86,7 @@
                       </li>
                       <li><a href="contact.php">Contact</a></li>
                     </ul>
-                  </li>
+                  </li> -->
                   <li><a href="machinery.php">Machinery</a></li>
                   <li><a href="farming_diseases.php">Farming Diseases</a></li>
                   <li><a href="farming-practice.php">Farming Practice</a></li>
@@ -312,7 +312,7 @@
             <div class="col-lg-3">
               <!-- <input type="email" class="form-control" name="email" placeholder="Total Area"> -->
             </div>
-            <input type ="submit" class="btn famie-btn mt-4" name ="submit"></a>
+            <input style="margin-left:1%;" type ="submit" class="btn famie-btn mt-4" name ="submit"></a>
         </form>
       </div>
     </div>
@@ -373,7 +373,7 @@
       </div>
     </div>
   </section>
-  <!-- ##### Famie Benefits Area End ##### -->
+  < ##### Famie Benefits Area End ##### -->
 
   <!-- ##### About Us Area Start ##### -->
   <section class="about-us-area">
@@ -450,10 +450,10 @@
               <p>Coffee being grown in hilly tracts, soil gets exposed to high soil erosion during rainy season and a long
               dry condition for more than 6 months in a year. Hence it is highly essential to prevent the soil erosion in
               rainy season and conserve moisture during dry condition.
-              <p> Forming Drainage channels</p>
-              <p> Forming of Cradle pits across the slope</p>
-              <p> Mulching during dry period</p>
-              <p> Loosening the soil surface up-to 2-3 inch during post monsoon</p>
+                Forming Drainage channels.
+                Forming of Cradle pits across the slope.
+                Mulching during dry period.
+                Loosening the soil surface up-to 2-3 inch during post monsoon.</p>
             </div>
           </div>
         </div>
@@ -475,8 +475,8 @@
               <h4>Shade Management</h4>
               <p>Coffee being shade loving plant, it is very essential to maintain optimum shade to get sustainable yield,
               protect against white stem borer and maintain ecological balance by safe guarding wild flora and fauna.
-              <p> Natural and native shade trees at 30-40 ft apart, as permanent shade.</p>
-              <p> Plant Silver and Dadaps trees at 15-20 ft apart, as temporary shade.</p>
+                Natural and native shade trees at 30-40 ft apart, as permanent shade.
+                Plant Silver and Dadaps trees at 15-20 ft apart, as temporary shade.</p>
             </div>
           </div>
         </div>
@@ -500,10 +500,10 @@
               <h4>Plant Management</h4>
               <p>Coffee being a perennial plant it needs regular care to manage sufficient bearing wood, without which
               irrespective of any quantity of input plants can’t yield properly.
-              <p> Topping plants at specified heights to encourage more bearing wood.</p>
-              <p> Handling and de-suckering frequently to avoid unnecessary growth and wastage of nutrients.</p>
-              <p> Pruning plants once in a year to remove unwanted lean, lanky, whippy, and dry woods to
-              encourage new growth</p>
+                Topping plants at specified heights to encourage more bearing wood.
+                Handling and de-suckering frequently to avoid unnecessary growth and wastage of nutrients.
+               Pruning plants once in a year to remove unwanted lean, lanky, whippy, and dry woods to
+              encourage new growth.</p>
             </div>
           </div>
         </div>
@@ -523,10 +523,10 @@
               </div>
               <span>Farming practice for</span>
               <h4>Irrigation Management</h4>
-              <p>Coffee blooms once in a year, failure of blossom leads to 100% crop loss. Hence, its very essential to protect blossom through irrigation</p>
-              <p>Blossom Iriigation shall be given during summer (i.e., Feb-Mar) to endure blossom</p>
-              <p>Backing Irrigation shall be given within 21 days after blossom to retain coffee setting and avoid ovule abortion</p>
-              <p>Winter Irrigation practiced in robusta plantation is to endure more bearing wood for once in 15 days during winter</p>
+              <p>Coffee blooms once in a year, failure of blossom leads to 100% crop loss. Hence, its very essential to protect blossom through irrigation.
+               Blossom Iriigation shall be given during summer (i.e., Feb-Mar) to endure blossom.
+               Backing Irrigation shall be given within 21 days after blossom to retain coffee setting and avoid ovule abortion.
+               Winter Irrigation practiced in robusta plantation is to endure more bearing wood for once in 15 days during winter.</p>
             </div>
           </div>
         </div>
@@ -637,7 +637,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/9.jpg" alt="">
+              <img src="img/bg-img/cattle.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -700,7 +700,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="600ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/14.jpg" alt="">
+              <img src="img/bg-img/fishery.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -860,15 +860,19 @@
   <!-- ##### Footer Area Start ##### -->
   <footer class="footer-area">
     <!-- Main Footer Area -->
-    <div class="main-footer bg-img bg-overlay section-padding-80-0" style="background-image: url(img/bg-img/3.jpg);">
+    <div class="main-footer bg-img bg-overlay section-padding-80-0" style="background-image: url(img/bg-img/fcb.jpg);">
       <div class="container">
         <div class="row">
 
           <!-- Single Footer Widget Area -->
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="footer-widget mb-80">
-              <a href="#" class="foo-logo d-block mb-30"><img src="img/core-img/logo2.png" alt=""></a>
-              <p>we hope you will enjoy farming and have good experience</p>
+              <a href="#" class="foo-logo d-block mb-30"><img src="img/core-img/logo.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3" style="margin-left:10%; margin-top:5%">
+            <div class="footer-widget mb-80">
+            <h5 class="widget-title">CONTACT INFO</h5>
               <div class="contact-info">
                 <p><i class="fa fa-map-pin" aria-hidden="true"></i><span>X65B, Mahadeshwara Block, Somwarpete, Kodagu</span></p>
                 <p><i class="fa fa-envelope" aria-hidden="true"></i><span>noreplykaapimanagement@gmail.com</span></p>
@@ -876,63 +880,9 @@
               </div>
             </div>
           </div>
-
+  
           <!-- Single Footer Widget Area -->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="footer-widget mb-80">
-              <h5 class="widget-title">QUICK LINK</h5>
-              <!-- Footer Widget Nav -->
-              <nav class="footer-widget-nav">
-                <ul>
-                  <li><a href="#">Purchase</a></li>
-                  <li><a href="#">Policities</a></li>
-                  <li><a href="#">Shipping</a></li>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="#">Return</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Payments</a></li>
-                  <li><a href="#">Partners</a></li>
-                  <li><a href="#">Guide</a></li>
-                  <li><a href="#">Standard</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Brands</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
-          <!-- Single Footer Widget Area -->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="footer-widget mb-80">
-              <h5 class="widget-title">RECENT NEWS</h5>
-
-              <!-- Single Recent News Start -->
-              <div class="single-recent-blog d-flex align-items-center">
-                <div class="post-thumbnail">
-                  <img src="img/bg-img/4.jpg" alt="">
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-title">WA’s largest farming business on the market</a>
-                  <div class="post-date">18 Aug 2018</div>
-                </div>
-              </div>
-
-              <!-- Single Recent News Start -->
-              <div class="single-recent-blog d-flex align-items-center">
-                <div class="post-thumbnail">
-                  <img src="img/bg-img/5.jpg" alt="">
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-title">Beef retail prices hit a record</a>
-                  <div class="post-date">18 Aug 2018</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Single Footer Widget Area -->
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3" style="margin-left:15%; margin-top:5%">
             <div class="footer-widget mb-80">
               <h5 class="widget-title">STAY CONNECTED</h5>
               <!-- Footer Social Info -->
@@ -945,10 +895,10 @@
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                   <span>Twitter</span>
                 </a>
-                <a href="#">
+                <!-- <a href="#">
                   <i class="fa fa-pinterest" aria-hidden="true"></i>
                   <span>Pinterest</span>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -964,7 +914,7 @@
           <div class="row align-items-center">
             <div class="col-md-6">
               <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <!--a href="https://colorlib.com" target="_blank"--></a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </p>
             </div>
@@ -973,11 +923,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 <nav>
                   <ul>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Produce</a></li>
-                    <li><a href="#">Practice</a></li>
-                    <li><a href="#">Products</a></li>
+                    <li><a href="machinery.php">Machinery</a></li>
+                    <li><a href="farming-practice.php">Practice</a></li>
                     <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                   </ul>
                 </nav>
               </div>
