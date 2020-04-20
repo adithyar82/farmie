@@ -35,8 +35,8 @@
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: nareplykaapimanagement@gmail.com</span></a>
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +91 9483124000</span></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="noreplykaapimanagement@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: noreplykaapimanagement@gmail.com</span></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Call Us: +91 9483124000"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +91 9483124000</span></a>
               </div>
             </div>
           </div>
@@ -65,12 +65,11 @@
               <!-- Navbar Start -->
               <div class="classynav">
                 <ul>
-                  <li class="active"><a href="index.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="about.html">About</a></li>
                   <li><a href="machinery.php">Machinery</a></li>
-                  <li><a href="farming_diseases.php">Farming Diseases</a></li>
-                  <li><a href="farming-practice.php">Farming Practice</a></li>
-                  <li><a href="news.html">News</a></li>
+                  <li><a href="farming_diseases.php">Diseases</a></li>
+                  <li><a href="farming-practice.php">Calender</a></li>
                   <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <!-- Search Icon -->
@@ -417,7 +416,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/9.jpg" alt="">
+              <img src="img/bg-img/sm.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -468,7 +467,7 @@
           <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="500ms">
             <!-- Thumbnail -->
             <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/13.jpg" alt="">
+              <img src="img/bg-img/pm.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="farming-practice-content text-center">
@@ -713,64 +712,23 @@
             <div class="single-slide">
               <!-- Testimonial Text -->
               <div class="testi-text d-flex">
-                <div class="quote-icon">
-                  <img src="img/core-img/quote.png" alt="">
-                </div>
-                <h5>"Thank you for your organic products. My children like yFARMING DISEASES and they use for breakfast. We are loving the pure milk, freshly fruit and of course our staple, Brown Rice Bread. Your Gluten Free breads truly make me feel
-                  lighter and uplifted. It's the only bread I plan to eat for the rest of my life. I will use them for many years."</h5>
+                
+                <h5 style="text-align: center;">"Dear planter friends, coffee has been a major livelihood of Western Ghat people. Coffee if grown
+                scientifically, it is not only a commercial boon to planters but also a nature conserving cropping
+                system. But the technology of coffee growing in print media is not available when needed.
+                Even, many planters don’t know how to calculate fertilizers, identifiy pests and diseases, when and
+                how to take up control measures and other things........ Hence, an effort has been made in this
+                website to provide the whole information on coffee cultivation at your fingertips in
+                digital form at one place"</h5>
               </div>
               <!-- Testimonial Thumbnail Name -->
-              <div class="testimonial-thumbnail-name d-flex align-items-center">
+              <div class="testimonial-thumbnail-name d-flex align-items-center" style="margin-left:70%;">
                 <div class="testimonial-thumbnail">
-                  <img src="img/bg-img/16.jpg" alt="">
+                  <img src="img/bg-img/appa-icon.png" alt="">
                 </div>
                 <div class="testimonial-name">
-                  <h5>Mrs Lara Sullivan</h5>
-                  <h6>Customer</h6>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Slide -->
-            <div class="single-slide">
-              <!-- Testimonial Text -->
-              <div class="testi-text d-flex">
-                <div class="quote-icon">
-                  <img src="img/core-img/quote.png" alt="">
-                </div>
-                <h5>"Thank you for your organic products. My children like yFARMING DISEASES and they use for breakfast. We are loving the pure milk, freshly fruit and of course our staple, Brown Rice Bread. Your Gluten Free breads truly make me feel
-                  lighter and uplifted. It's the only bread I plan to eat for the rest of my life. I will use them for many years."</h5>
-              </div>
-              <!-- Testimonial Thumbnail Name -->
-              <div class="testimonial-thumbnail-name d-flex align-items-center">
-                <div class="testimonial-thumbnail">
-                  <img src="img/bg-img/16.jpg" alt="">
-                </div>
-                <div class="testimonial-name">
-                  <h5>Ajoy Das</h5>
-                  <h6>Client</h6>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Slide -->
-            <div class="single-slide">
-              <!-- Testimonial Text -->
-              <div class="testi-text d-flex">
-                <div class="quote-icon">
-                  <img src="img/core-img/quote.png" alt="">
-                </div>
-                <h5>"Thank you for your organic products. My children like yFARMING DISEASES and they use for breakfast. We are loving the pure milk, freshly fruit and of course our staple, Brown Rice Bread. Your Gluten Free breads truly make me feel
-                  lighter and uplifted. It's the only bread I plan to eat for the rest of my life. I will use them for many years."</h5>
-              </div>
-              <!-- Testimonial Thumbnail Name -->
-              <div class="testimonial-thumbnail-name d-flex align-items-center">
-                <div class="testimonial-thumbnail">
-                  <img src="img/bg-img/16.jpg" alt="">
-                </div>
-                <div class="testimonial-name">
-                  <h5>Akash Khan</h5>
-                  <h6>Customer</h6>
+                  <h5>Muralidhara H R</h5>
+                  <h6>Guide</h6>
                 </div>
               </div>
             </div>

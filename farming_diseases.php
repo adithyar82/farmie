@@ -35,8 +35,8 @@
               </div>
               <!-- Top Header Content -->
               <div class="top-header-meta text-right">
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: infodeercreative@gmail.com</span></a>
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +84 223 9000</span></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="noreplykaapimanagement@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: noreplykaapimanagement@gmail.com</span></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+91 9483124000"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +91 9483124000</span></a>
               </div>
             </div>
           </div>
@@ -65,31 +65,10 @@
               <!-- Navbar Start -->
               <div class="classynav">
                 <ul>
-                  <li class="active"><a href="index.php">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="#">Pages</a>
-                    <ul class="dropdown">
-                      <li><a href="index.php">Home</a></li>
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="farming-practice.html">Farming Practice</a></li>
-                      <li><a href="shop.html">Shop</a>
-                        <ul class="dropdown">
-                          <li><a href="farming_diseases.php">FARMING DISEASES</a></li>
-                          <li><a href="shop.html">Shop</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="news.html">News</a>
-                        <ul class="dropdown">
-                          <li><a href="news.html">News</a></li>
-                          <li><a href="news-details.html">News Details</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                  </li>
                   <li><a href="machinery.php">Machinery</a></li>
-                  <li><a href="farming-practice.php">Farming Practice</a></li>
-                  <li><a href="news.html">News</a></li>
+                  <li><a href="farming-practice.php">Calender</a></li>
                   <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <!-- Search Icon -->
@@ -140,7 +119,7 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Our Product</li>
+          <li class="breadcrumb-item active" aria-current="page">Farming Diseases</li>
         </ol>
       </nav>
     </div>
@@ -594,79 +573,29 @@
   <!-- ##### Footer Area Start ##### -->
   <footer class="footer-area">
     <!-- Main Footer Area -->
-    <div class="main-footer bg-img bg-overlay section-padding-80-0" style="background-image: url(img/bg-img/3.jpg);">
+    <div class="main-footer bg-img bg-overlay section-padding-80-0" style="background-image: url(img/bg-img/fcb.jpg);">
       <div class="container">
         <div class="row">
 
           <!-- Single Footer Widget Area -->
           <div class="col-12 col-sm-6 col-lg-3">
             <div class="footer-widget mb-80">
-              <a href="#" class="foo-logo d-block mb-30"><img src="img/core-img/logo2.png" alt=""></a>
-              <p>Lorem ipsum dolor sit amet, consecte stare adipiscing elit. In act honcus risus atiner Pellentesque risus.</p>
+              <a href="#" class="foo-logo d-block mb-30"><img src="img/core-img/logo.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3" style="margin-left:10%; margin-top:5%">
+            <div class="footer-widget mb-80">
+            <h5 class="widget-title">CONTACT INFO</h5>
               <div class="contact-info">
-                <p><i class="fa fa-map-pin" aria-hidden="true"></i><span>120 Raymond Rd, New York</span></p>
-                <p><i class="fa fa-envelope" aria-hidden="true"></i><span>info.deercreative@gmail.com</span></p>
-                <p><i class="fa fa-phone" aria-hidden="true"></i><span>+84 223 9000</span></p>
+                <p><i class="fa fa-map-pin" aria-hidden="true"></i><span>X65B, Mahadeshwara Block, Somwarpete, Kodagu</span></p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i><span>noreplykaapimanagement@gmail.com</span></p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i><span>+91 9483124000</span></p>
               </div>
             </div>
           </div>
-
+  
           <!-- Single Footer Widget Area -->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="footer-widget mb-80">
-              <h5 class="widget-title">QUICK LINK</h5>
-              <!-- Footer Widget Nav -->
-              <nav class="footer-widget-nav">
-                <ul>
-                  <li><a href="#">Purchase</a></li>
-                  <li><a href="#">Policities</a></li>
-                  <li><a href="#">Shipping</a></li>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="#">Return</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Payments</a></li>
-                  <li><a href="#">Partners</a></li>
-                  <li><a href="#">Guide</a></li>
-                  <li><a href="#">Standard</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Brands</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
-          <!-- Single Footer Widget Area -->
-          <div class="col-12 col-sm-6 col-lg-3">
-            <div class="footer-widget mb-80">
-              <h5 class="widget-title">RECENT NEWS</h5>
-
-              <!-- Single Recent News Start -->
-              <div class="single-recent-blog d-flex align-items-center">
-                <div class="post-thumbnail">
-                  <img src="img/bg-img/4.jpg" alt="">
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-title">WA’s largest farming business on the market</a>
-                  <div class="post-date">18 Aug 2018</div>
-                </div>
-              </div>
-
-              <!-- Single Recent News Start -->
-              <div class="single-recent-blog d-flex align-items-center">
-                <div class="post-thumbnail">
-                  <img src="img/bg-img/5.jpg" alt="">
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-title">Beef retail prices hit a record</a>
-                  <div class="post-date">18 Aug 2018</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Single Footer Widget Area -->
-          <div class="col-12 col-sm-6 col-lg-3">
+          <div class="col-12 col-sm-6 col-lg-3" style="margin-left:15%; margin-top:5%">
             <div class="footer-widget mb-80">
               <h5 class="widget-title">STAY CONNECTED</h5>
               <!-- Footer Social Info -->
@@ -679,10 +608,10 @@
                   <i class="fa fa-twitter" aria-hidden="true"></i>
                   <span>Twitter</span>
                 </a>
-                <a href="#">
+                <!-- <a href="#">
                   <i class="fa fa-pinterest" aria-hidden="true"></i>
                   <span>Pinterest</span>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -698,7 +627,7 @@
           <div class="row align-items-center">
             <div class="col-md-6">
               <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <!--a href="https://colorlib.com" target="_blank"--></a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </p>
             </div>
@@ -707,11 +636,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 <nav>
                   <ul>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Produce</a></li>
-                    <li><a href="#">Practice</a></li>
-                    <li><a href="#">Products</a></li>
+                    <li><a href="machinery.php">Machinery</a></li>
+                    <li><a href="farming-practice.php">Practice</a></li>
                     <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                   </ul>
                 </nav>
               </div>
