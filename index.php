@@ -701,6 +701,14 @@
   <!-- ##### Farming Practice Area End ##### -->
 
   <!-- ##### Testimonial Area Start ##### -->
+  <div style = "width:50%; text-align:center">
+  <video controls muted width="100%" height="auto" style = "margin-left:45%">
+  <source src="abc.mp4" type="video/mp4">
+  <!-- <source src="movie.ogg" type="video/ogg"> -->
+Your browser does not support the video tag.
+</video>
+</div>
+  <br>
   <section class="testimonial-area bg-img bg-overlay section-padding-100 jarallax" style="background-image: url('img/bg-img/15.jpg'); margin-bottom:10%">
     <div class="container">
       <div class="row">
@@ -732,10 +740,12 @@
                 </div>
               </div>
             </div>
+            
 
           </div>
         </div>
       </div>
+      
     </div>
   </section>
   <!-- ##### Testimonial Area End ##### -->
