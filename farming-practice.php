@@ -108,7 +108,7 @@
       <div class="row h-100 align-items-center">
         <div class="col-12">
           <div class="breadcrumb-text">
-            <h2>CALENDER OF OPERATIONS</h2>
+            <h2>CALENDER OF ESTATE OPERATIONS</h2>
           </div>
         </div>
       </div>
