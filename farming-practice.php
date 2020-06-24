@@ -148,6 +148,7 @@
             Prepare germination beds and take up sowing coffee seeds treated with Bavistin to avoid
             collar rot<br>
             Irrigate young plants in new clearings</p>
+            <a href="Jan.pdf" style = "color:green; font-size:20px" target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -182,6 +183,8 @@
             Spray Bavistin against Die Back disease after removal of dead woods<br>
             Prepare secondary nursery, arrange polybags and transplant toppee stage seedlings<br>
             Land preparation to start new plantations</p>
+            <a href="Feb.pdf" style = "color:green; font-size:20px" target="_blank">Click Here to View Details</a>
+            
           </div>
         </div>
 
@@ -213,6 +216,7 @@
             Collect and burn pupae of caterpillars in endemic areas, control measures against mealy
             bugs, if found<br>
             Irrigation of young plants</p>
+            <a href="mar.pdf" style = "color:green; font-size:20px"  target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -246,6 +250,7 @@
             Spray Tilt (0.8 ml per liter), if stem necrosis is noticed. Repeat spray once in a month till they
             attain field planting stage<br>
             Take up line marking and opening of pits in new clearings</p>
+            <a href="april.pdf" style = "color:green; font-size:20px"  target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -276,6 +281,7 @@
             Renovate cradle pits and drainage channels<br>
             Drench Bavistin @ 3 liter per plant, if root disease noticed<br>
             Opening and closing of pits for planting coffee and shade tree saplings</p>
+            <a href="May.pdf" style = "color:green; font-size:20px" target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -303,6 +309,7 @@
             Spray 1.0 % Bordeaux mixture spray in Black rot endemic areas<br>
             Remove overhead shade, if monsoon sets and cloudy weather prevails<br>
             Supply planting / Planting of Ball plants (18 month old seedlings</p>
+            <a href="jun.pdf" style = "color:green; font-size:20px" target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -329,6 +336,7 @@
             Spray Bavistin (120 Gram/ 200 liters) in black rot affected areas, provide drainage<br>
             Weeding<br>
             Supply planting</p>
+            <a href="Jul.pdf" style = "color:green; font-size:20px" target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -358,6 +366,7 @@
             Tracing and collar pruning/Uprooting/Burning of White Stem Borer affected Arabica plants.
             If stumps to be stored, immerse them in water for 10 days<br>
             If berry borer found, spray chloropyriphos (600 ml/200 liters)</p>
+            <a href="Aug.pdf" style = "color:green; font-size:20px"  target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -390,6 +399,7 @@
             Collect and burn berry borer infested berries, install berry borer traps<br>
             race, collect and burn shot hole affected branches, spray Tilt (160 ml / 200 liters) in young
             robusta plants to control against shot hole borer</p>
+            <a href="Sep.pdf" style = "color:green; font-size:20px"  target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -425,6 +435,7 @@
             Scuffling in established plantations<br>
             If root disease is noticed, drench soil with Bavisting or Tilt, apply compost enriched with
             Trichoderma @ 5-10 Kg per plant</p>
+            <a href="oct.pdf" style = "color:green; font-size:20px"  target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -455,6 +466,7 @@
             Winter irrigation in robusta<br>
             Cover digging in young plantations<br>
             Forking, mulching and staking in young plantations</p>
+            <a href="Nov.pdf" style = "color:green; font-size:20px"  target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -482,6 +494,7 @@
             Application of lime to correct soil pH<br>
             Winter irrigation in robusta<br>
             Collection of jungle soil, sand and cattle manure for nursery preparation</p>
+            <a href="Dec.pdf" style = "color:green; font-size:20px" target="_blank">Click Here to View Details</a>
           </div>
         </div>
 
@@ -522,8 +535,8 @@
           </form>
         </div>
       </div>
-    </div>
-  </section> -->
+    </div> -->
+  </section> 
   <!-- ##### Newsletter Area End ##### -->
 
   <!-- ##### Contact Area Start ##### -->
