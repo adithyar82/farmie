@@ -66,7 +66,8 @@
               <div class="classynav">
                 <ul>
                   <li><a href="index.php">Home</a></li>
-                  <li><a href="about.html">About</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="profile.php">Profile</a></li>
                   <li><a href="machinery.php">Machinery</a></li>
                   <li><a href="farming_diseases.php">Diseases</a></li>
                   <li><a href="farming-practice.php">Calender</a></li>
