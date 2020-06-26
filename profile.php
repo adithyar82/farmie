@@ -13,6 +13,18 @@
   <link rel="icon" href="img/core-img/favicon.ico">
   <!-- Core Stylesheet -->
   <link rel="stylesheet" href="style.css">
+
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+    }
+  </script>
+
 </head>
 
 <body>
@@ -186,10 +198,9 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <h2>Full Name</h2>
+              <h2 class="mt-50">Full Name</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <a href="#" class="btn famie-btn mt-30">Read More</a>
           </div>
         </div>
 
@@ -206,144 +217,46 @@
     </div>
   </section>
   <!-- ##### About Us Area End ##### -->
-
-  <!-- ##### Testimonial Area Start ##### -->
-  <section class="testimonial-area bg-img bg-overlay section-padding-100 jarallax" style="background-image: url('img/bg-img/fumes.jpg');">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <!-- Testimonial Slides -->
-          <div class="testimonial-slides owl-carousel">
-
-            <!-- Single Slide -->
-            <div class="single-slide">
-              <!-- Testimonial Text -->
-              <div class="testi-text d-flex">
-                <div class="quote-icon" style="margin-left:5%;">
-                  <img src="img/core-img/quote.png" alt="">
-                </div>
-                <h5 style="font-size:40px;">A DAY WITHOUT COFFEE,<br>IS A DAY WITHOUT FEASIBLE MIND</h5>
-              </div>
-              <!-- Testimonial Thumbnail Name -->
-              <div class="testimonial-thumbnail-name d-flex align-items-center" style="margin-left:75%;">
-                <div class="testimonial-thumbnail">
-                  <img src="img/bg-img/appa-icon.png" alt="">
-                </div>
-                <div class="testimonial-name">
-                  <h5>Muralidhara H R</h5>
-                  <h6>Guide</h6>
-                </div>
-              </div>
-            </div>
-
-          </div>
+  <section>
+    <div style="padding-left:16%; padding-right:16%;">
+        <div class="col-lg-6">
+            <input type="text" class="form-control" name="Email_id" placeholder="Email_id">
         </div>
-      </div>
-    </div>
+        <div class="col-lg-6">
+            <input type="text" class="form-control" name="Phone Number" placeholder="Phone Number">
+        </div>
+        <div class="col-lg-6">
+            <input type="text" class="form-control" name="Residential Adderss" placeholder="Residential Adderss">
+        </div>
+        <div class="col-lg-6">
+            <input type="text" class="form-control" name="Estate Address" placeholder="Estate Address">
+        </div>
+        <section style="padding:1%;">
+        <div class="row">
+            <div class="col-lg-4">
+                <button class="btn famie-btn mt-4" onclick="myFunction()">Estate Details</button>
+            </div>
+            <div class="col-lg-4">
+                <button class="btn famie-btn mt-4">Update</button>
+            </div>
+        </div>
+        <div id="myDIV" style="padding:5px;">
+            <div class="col-lg-6">
+                <input type="text" class="form-control" name="Arebica Area" placeholder="Arebica Area">
+            </div>
+            <div class="col-lg-6">
+                <input type="text" class="form-control" name="Robusta Area" placeholder="Robusta Area">
+            </div>
+            <div class="col-lg-6">
+                <input type="text" class="form-control" name="Total Number of Blocks" placeholder="Total Number of Blocks">
+            </div>
+            <div class="col-lg-6">
+                <input type="text" class="form-control" name="Total Area" placeholder="Total Area">
+            </div>
+        </div>
+        </section>
+    </div> 
   </section>
-  <!-- ##### Testimonial Area End ##### -->
-
-  <!-- ##### Team Member Area Start ##### -->
-  <section class="team-member-area section-padding-100-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <!-- Section Heading -->
-          <div class="section-heading text-center">
-            <p>MEET OUR TEAM</p>
-            <h2><span>The Great Team</span> Will Always Help You</h2>
-            <img src="img/core-img/decor2.png" alt="">
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-team-member mb-100 wow fadeInUp" data-wow-delay="100ms">
-            <!-- Team Thumbnail -->
-            <div class="team-img">
-              <img src="img/bg-img/appa.png" alt="">
-              <!-- Social Info -->
-              <div class="team-social-info">
-                <a href="https://www.facebook.com/murali.hulikere" data-toggle="tooltip" data-placement="right" title="Facebook"><i class="fa fa-facebook"></i></a>
-              </div>
-            </div>
-            <!-- Team Member Info -->
-            <div class="team-member-info">
-              <h5>Muralidhara H R</h5>
-              <h6>Coffee Expertise</h6>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-team-member mb-100 wow fadeInUp" data-wow-delay="300ms">
-            <!-- Team Thumbnail -->
-            <div class="team-img">
-              <img src="img/bg-img/adim.png" alt="">
-              <!-- Social Info -->
-              <div class="team-social-info">
-                <a href="https://www.facebook.com/aditya.ritesh.3" data-toggle="tooltip" data-placement="right" title="Facebook"><i class="fa fa-facebook"></i></a>
-                <a href="https://instagram.com/adi_ritesh?igshid=l6sx4focx0gs" data-toggle="tooltip" data-placement="right" title="Instagram"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/aditya-m-92846a199/" data-toggle="tooltip" data-placement="right" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-            <!-- Team Member Info -->
-            <div class="team-member-info">
-              <h5>Aditya M</h5>
-              <h6>Team Lead</h6>
-              <h6>Frontend Developer</h6>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-team-member mb-100 wow fadeInUp" data-wow-delay="500ms">
-            <!-- Team Thumbnail -->
-            <div class="team-img">
-              <img src="img/bg-img/adi.png" alt="">
-              <!-- Social Info -->
-              <div class="team-social-info">
-                <a href="https://www.facebook.com/adithyar82" data-toggle="tooltip" data-placement="right" title="Facebook"><i class="fa fa-facebook"></i></a>
-                <a href="https://instagram.com/adithya_967?igshid=1ai3a07l6jbai" data-toggle="tooltip" data-placement="right" title="Instagram"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/adithya-ramesh-96ab39143" data-toggle="tooltip" data-placement="right" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-            <!-- Team Member Info -->
-            <div class="team-member-info">
-              <h5>Adithya Ramesh</h5>
-              <h6>Backend Developer</h6>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-team-member mb-100 wow fadeInUp" data-wow-delay="700ms">
-            <!-- Team Thumbnail -->
-            <div class="team-img">
-              <img src="img/bg-img/harshi.png" alt="">
-              <!-- Social Info -->
-              <div class="team-social-info">
-                <a href="https://www.linkedin.com/in/harshitha-eshwar-993967166" data-toggle="tooltip" data-placement="right" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-            <!-- Team Member Info -->
-            <div class="team-member-info">
-              <h5>Harshitha Eshwar</h5>
-              <h6>Backend Developer</h6>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- ##### Team Member Area End ##### -->
 
   <!-- ##### Footer Area Start ##### -->
   <footer class="footer-area">
