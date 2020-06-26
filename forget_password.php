@@ -92,30 +92,25 @@
     <div class="welcome-slides owl-carousel">
 
       <!-- Single Welcome Slides -->
-      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/coffee.jpg);">
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/coffee2.jpg);">
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-12 col-lg-10">
               <div class="welcome-content">
                 <div class="section-heading">
-                 <h2 style="margin-left: 20px;"><span style="color:white;">Login</span></h2>
+                 <h2 style="margin-left: 20px"><span style="color:white;">Reset Password</span></h2>
                 </div>
                 <div class="col-lg-8">
-                 <input type="text" class="form-control" name="Email_id or Phone Number" placeholder="Email_id or Phone Number">
+                 <input type="text" class="form-control" name="Email_Id or Phone Number" placeholder="Email_Id or Phone Number">
                 </div>
                 <div class="col-lg-8">
-                 <input type="text" class="form-control" name="Password" placeholder="Password">
+                 <input type="text" class="form-control" name="Set New Password" placeholder="Set New Password">
                 </div>
                 <div class="col-lg-8">
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <input style="background-color:white; color:#6a2b05;" type ="submit" class="btn famie-btn mt-4" name ="submit">
-                    </div>
-                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                    <div class="col-lg-4">
-                      <button style="background-color:white; color:#6a2b05;" href="forget_password.php" class="btn famie-btn mt-4">Forgot Password  ?</button>
-                    </div>
-                  </div>
+                 <input type="text" class="form-control" name="Confirm Password" placeholder="Confirm Password">
+                </div>
+                <div class="col-lg-4">
+                 <input style="background-color:white; color:#6a2b05;" type ="submit" class="btn famie-btn mt-4" name ="submit">
                 </div>
               </div>
             </div>

@@ -92,13 +92,13 @@
     <div class="welcome-slides owl-carousel">
 
       <!-- Single Welcome Slides -->
-      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/1.jpg);">
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/coffee1.jpg);">
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-12 col-lg-10">
               <div class="welcome-content">
                 <div class="section-heading">
-                 <h2 style="margin-left: 20px"><span>Registration</span></h2>
+                 <h2 style="margin-left: 20px"><span style="color:white;">Registration</span></h2>
                 </div>
                 <div class="col-lg-8">
                  <input type="text" class="form-control" name="First Name" placeholder="First Name">
@@ -116,7 +116,7 @@
                  <input type="text" class="form-control" name="Set Password" placeholder="Set Password">
                 </div>
                 <div class="col-lg-4">
-                 <input type ="submit" class="btn famie-btn mt-4" name ="submit">
+                 <input style="background-color:white; color:#6a2b05;" type ="submit" class="btn famie-btn mt-4" name ="submit">
                 </div>
               </div>
             </div>
